@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Studentmegleren: Amir Hossein Ghaedi, Ida Maria Corsepius Melen, Sebastian Veum, Francin Anoj Vincent, 17.09.20</title>
+    <link rel = "stylesheet"
+    type = "text/css"
+    href = "style.css" />
+    <style>
+    html {background-color: #ffe0cc;}
+   </style>
+  </head>
+  <body>
+    <header>
+      <div class="intro">
+        <h1>Studentmegleren</h1>
+        <p>Our customer is "Studentmegleren" w/ Francin Vincent. This is a company that is under development. This means that the company is not operational to this day. In this context, the
+          "Studentmegleren" wants a website that they can use when the company is started. The "Studentmegleren" will engage in rental brokerage and housing management. </p>
+      </div>
+      <div class="admin">
+        <h3> Administrative Details:</h3>
+        <p>Main shareholder:</p>
+        <ul>
+          <li>Francin A. Vincent
+          <li>Kevin Alfred
+        </ul>
+      </div>
+      </header>
+      <div class="Purpose_and_goals">
+      <h3>Purpose and goals</h3>
+      <p>This website will first and foremost help the company with its presence on the internet. It is also to increase trust in the customer, nowadays it is difficult to create trust in a supplier who does not have a website. The goal of the website is to bring in customers. It should give the consumer a picture of who the "student broker" is, and at the same time sell the service in a good way. It is desired to create trust in students who want, hence the name. At the same time, the student broker will also be competitive in terms of price and quality. It should be a simple page, the user should not read much for him / her to understand what he / she should do.
+      </p>
+      </div>
+      <div class="Audience">
+        The target group of this website will be people who are looking to find someone who can manage their housing, there may be landlords who do all the work themselves and finally people who are looking for housing (mainly students). This website should appeal to more people, and it is a broad target group. Everything from students to older people. Thus, it will be important to have colors that are not too strong, so that it will be comfortable for the user to be on the website. Design must not be too complicated either.<div>
+      <div class="content">
+        <p style="font-size:1.05em "><b>Homepage</b><p>
+        <ul>
+          <li>A big picture with logo and name, on the middle of the screen, two buttons: “Utleier” “Leietaker”</li>
+          <li>In the right upper corner, two buttons: “Ledige boliger” “Kontakt”</li>
+        </ul>
+        <p style="font-size:1.05em "><b>Based on what you press on the homepage: Utleier</b><p>
+        <ul>
+          <li>This is a page for the people who want to rent out an apartment or several apartments. We will give an overview of why they as a customer should choose us.
+            It will also be a small contact form, så that the customer can take contact with us. After this it will be a section with : “Slik fungerer det”, (this will give a description of
+            what the customer should do if he/she wants to rent out an apartment) og “Se priser” (this will give the user an insight of our prices). After “Slik fungerer det”,
+            it should be a button that says “Kom i gang”.  On the bottom of the page it will be a section with information on what our services are: Utleie, Forvaltning,
+            Samarbeid med vaktmester og håndverkere. </li>
+        </ul>
+        <p style="font-size:1.05em "><b>Based on what you press on the homepage: Leietaker</b><p>
+        <ul>
+          <li>This page is for the person who wants to rent an apartment or house. There will be a list of why the person should use us. Same as the other page.
+            And then there will be three widgets with a button to prompt an action. “Finn din bolig” - this will take you to Finn page with the apartments we have,
+            but since the company isn`t operational it will be just show houses available for rental in Trondheim. The second widget is “Bli leietaker” -
+            this will take the customer to a page with a contact form. (This is optional) Last widget “Slipp depositum, velg leiegaranti”: It will be an info page about deposit
+            and rental warranty. The reason this page is not set in stone, is because it should have a calculator that will find the price for the deposit or the warranty. </li>
+        </ul>
+        <p style="font-size:1.05em "><b>"Om oss"</b><p>
+        <ul>
+          <li>This is an about page. Info about studentmegleren. Who they are, what they want to do. There will also be two subpages (one for “Våre tjenester” and “Personvernerklæring”.)<li>
+          <li>Våre tjenester: is a new info page with what we do, and some info about the warranties we have. There should be way to prompt the customer to take contact with us.<li>
+          <li>Personvernerklæring: Privacy Statement, something every website needs. </li>
+        </ul>
+        <p style="font-size:1.05em "><b>"Kontakt oss"</b><p>
+        <ul>
+          <li>Contact page, with a form.</li>
+          <li>There will be contact information.</li>
+          <li>We will also link a button to “Kom igang”.</li>
+        </ul>
+      </div>
+      <div class="funcionality">
+        <h3>Functional and Non-Functional Requirements:</h3>
+        <p style="font-size:1.05em "><b>Functional</b><p>
+        <ul>
+          <li>The system must allow to fill out and submit a contact form</li>
+          <li>The background color for all windows in the application will be light red/orange and have a hexadecimal RGB color value of #ffe0cc</li>
+          <li>Should be a database so that every customer who wants to rent an apartment will be saved.</li>
+        </ul>
+        <p style="font-size:1.05em "><b>Non-functional</b><p>
+        <ul>
+          <li>The web page should be fast. We want the site to load in 1.7 seconds.</li>
+          <li>The colors should be light matching the logo (text color black/darkgrey). The logo will ble in black and a color between orange/red.
+            The text size should be big for important information so that it is visible. </li>
+          <li>The layout shall allow users to reach contact form or contact from any page within 3 clicks.</li>
+        </div>
+        <div class="final_locations">
+          <footer>
+            <h3>Final locations:</h3>
+            <p> Student megleren will be in charge of maintenance and the domain fees. The website will be published on <a href="www.studentmegleren.no" target="_blank"></a> , when it is done.</p>
+          </footer>
+        </div>
+  </body>
+</html>
