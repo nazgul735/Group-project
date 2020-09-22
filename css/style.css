@@ -122,7 +122,48 @@ body {
   margin-right:10%;
   text-align:left;
 }
-.next_dest li{
-  list-style-type:"\1F44D" ;
+.next_dest ul{
+  list-style-image:url(../img/icons8-check-all-50.png) ;
 }
-
+.member_list ul{
+  list-style-image: url(../img/icons8-completed-task-64.png);
+}
+footer{
+  margin:0;
+  width:100%;
+  height:auto;
+  background-color: grey;
+  font-family: "Seravek", Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+  color:black;
+  position:relative;
+  
+}
+footer .next_dest{
+  position:absolute;
+  bottom:1rem;
+  left:1rem;
+}
+.next_dest a:hover{
+  background-color:#333;
+  color:white;
+}
+footer .member_list{
+  position:absolute;
+  bottom:1rem;
+  right:1rem;
+}
+.member_list a:hover{
+  background-color:#333;
+  color:white;
+}
+footer img{
+  position:relative;
+  left:40%;
+  bottom:1px;
+  margin-bottom:10px;
+}
+footer p{
+  position:absolute;
+  left:38%;
+  bottom:0;
+}
