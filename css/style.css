@@ -12,3 +12,7 @@ body {
   line-height: 1.5em;
   
 }
+
+header{
+  background-color: linear-gradient(to bottom, #000000 -54%, #ffffff 58%);
+}
