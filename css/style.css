@@ -5,22 +5,104 @@ html {
 header{
   margin:0;
   width:100%;
-  height:60px;
-  background-color: #262626;
-  padding:2rem;
+  height:auto;
+  background-color: black;
   -webkit-box-shadow: 0px 11px 33px -3px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 11px 33px -3px rgba(0,0,0,0.75);
   box-shadow: 0px 11px 33px -3px rgba(0,0,0,0.75);
   font-family: "Seravek", Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
   color:white;
+  position:relative;
 }
-
+.intro p{
+  position:absolute;
+  bottom:5px;
+  right:1rem;
+}
+.intro img{
+  position: relative;
+  top:5px;
+}
+.intro .menu{
+  position:absolute;
+  top:1rem;
+  right:1rem;
+}
+.menu{
+  background-color: black;
+}
+.menu a{
+  color:white;
+  text-align:center;
+  border-left: 2px white solid;
+  padding:14px;
+}
+.menu a:hover{
+  background-color:#777;
+}
 body {
   line-height: 1.5em;
   margin:0;
 }
 .admin{
-  margin:2rem;
+  margin-top:2rem;
+  padding:1rem;
+  border:1px solid grey;
+  transition: 0.8s ease-in;
+  border-radius:10px 0px 10px 0px;
+}
+.admin:hover{
+  -webkit-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+	-moz-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+	box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+}
+.Purpose_and_goals{
+  margin-top:2rem;
+  padding:1rem;
+  border:1px solid grey;
+  transition: 0.8s ease-in;
+  border-radius:10px 0px 10px 0px;
+}
+.Purpose_and_goals:hover{
+  -webkit-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+	-moz-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+	box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+}
+.Audience{
+  margin-top:2rem;
+  padding:1rem;
+  border:1px solid grey;
+  transition: 0.8s ease-in;
+  border-radius:10px 0px 10px 0px;
+}
+.Audience:hover{
+  -webkit-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+	-moz-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+	box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+}
+.content{
+  margin-top:2rem;
+  padding:1rem;
+  border:1px solid grey;
+  transition: 0.8s ease-in;
+  border-radius:10px 0px 10px 0px;
+}
+.content:hover{
+  -webkit-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+	-moz-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+	box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+}
+.functionality{
+  margin-top:2rem;
+  padding:1rem;
+  border:1px solid grey;
+  transition: 0.8s ease-in;
+  border-radius:10px 0px 10px 0px;
+}
+.functionality:hover{
+  -webkit-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+	-moz-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+	box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
 }
 .admin, .Purpose_and_goals,.Audience,.content,.functionality,.final_locations{
   margin-left:10%;
