@@ -104,6 +104,19 @@ body {
 	-moz-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
 	box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
 }
+.final_locations{
+  margin-top:2rem;
+  padding:1rem;
+  border:1px solid grey;
+  transition: 0.8s ease-in;
+  border-radius:10px 0px 10px 0px;
+  margin-bottom:2rem;
+}
+.final_locations:hover{
+  -webkit-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+	-moz-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+	box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+}
 .admin, .Purpose_and_goals,.Audience,.content,.functionality,.final_locations{
   margin-left:10%;
   margin-right:10%;
