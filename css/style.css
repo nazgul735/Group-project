@@ -1,7 +1,10 @@
 html {
   background-color: none;
 }
-
+body {
+  line-height: 1.5em;
+  margin:0;
+}
 header{
   margin:0;
   width:100%;
@@ -40,12 +43,6 @@ header{
 .menu a:hover{
   background-color:#777;
 }
-body {
-  line-height: 1.5em;
-  margin:0;
-  margin-bottom:2rem;
-}
-
 .paragraphbox{
   margin-top:2rem;
   padding:1rem;
@@ -73,13 +70,13 @@ body {
 }
 footer{
   margin:0;
+  margin-top:2rem;
   width:100%;
   height:auto;
   background-color: grey;
   font-family: "Seravek", Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
   color:black;
   position:relative;
-  
 }
 footer .next_dest{
   position:absolute;
