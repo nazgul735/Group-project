@@ -20,7 +20,8 @@ header{
 .intro p{
   position:absolute;
   bottom:5px;
-  right:1rem;
+  right:8rem;
+  letter-spacing: 1px;
 }
 .intro img{
   position: relative;
@@ -82,20 +83,31 @@ footer .next_dest{
   position:absolute;
   bottom:1rem;
   left:1rem;
+  letter-spacing: 1px;
 }
+.next_dest a:link{color:black;}
+.next_dest a:visited{color:black;}
 .next_dest a:hover{
   background-color:#333;
   color:white;
+  font-weight:700 ;
+  font-size: medium;
 }
 footer .member_list{
   position:absolute;
   bottom:1rem;
   right:1rem;
+  letter-spacing:1px;
 }
+.member_list a:link{color:black;}
+.member_list a:visited{color:black;}
 .member_list a:hover{
   background-color:#333;
   color:white;
+  font-weight: 700;
+  font-size:medium;
 }
+
 footer img{
   position:relative;
   left:40%;
