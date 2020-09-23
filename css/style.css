@@ -86,7 +86,7 @@ body {
   border:1px solid grey;
   transition: 0.8s ease-in;
   border-radius:10px 0px 10px 0px;
-}
+ }
 .content:hover{
   -webkit-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
 	-moz-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
