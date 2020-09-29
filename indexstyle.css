@@ -1,0 +1,42 @@
+body {
+  background-image: url("/Users/sebastianveum/Documents/Group-project-master/img/shutterstock_631879034.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+#btn {
+  text-align: center;
+  margin-top: 360px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+#last_btn {
+  text-align: center;
+  transition: 0.8s;
+  margin-top: 100;
+  position: relative;
+  overflow: hidden;
+}
+.btn1,.btn2 {
+  color: #4D4861;
+  padding: 10px 20px;
+  font-size: 30px;
+  font-family: "ariel";
+  cursor: pointer;
+  margin: 10px;
+
+}
+.btn3,.btn4 {
+  color: #4D4861;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "ariel";
+  cursor: pointer;
+  margin: 10px;
+}
+
+.btn1:hover,.btn2:hover {
+  color: #fff;
+
+}
