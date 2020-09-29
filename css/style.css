@@ -9,27 +9,59 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+.homepage_container{
+    -webkit-animation: fadein ease 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein ease 2s; /* Firefox < 16 */
+    -ms-animation: fadein ease 2s; /* Internet Explorer */
+    -o-animation: fadein ease 2s; /* Opera < 12.1 */
+    animation: fadein ease 2s;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+    
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+    
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+    
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
 img{
-    position:absolute;
-    top:20%;
-    left:39%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    top:-25px;
+    position:relative;
 }
 #btn {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    top:30px;
+}
+#last_btn {
     text-align: center;
     transition: all 0.5s;
     position: relative;
     overflow: hidden;
-}
-#last_btn {
-    text-align: center;
-    transition: 0.8s;
-    margin-top: 100;
-    position: relative;
-    overflow: hidden;
+    top:160px;
 }
 .btn1,.btn2 {
     color: #fff;
-    background-color: #4D4861;
+    background-color: #9E7682;
     padding: 9px 26px 9px 26px;
     font-size:25px;
     font-family: "Seravek";
@@ -40,17 +72,45 @@ img{
     border-radius: 4px;
     width: 200px ;
     border:none;
+    transition:0.3s;
+    opacity:1;
 }
+.btn1:hover,.btn2:hover{
+    opacity:0.6;
+}
+
 .btn3,.btn4 {
-    color: #4D4861;
-    padding: 10px 20px;
-    font-size: 20px;
-    font-family: "ariel";
+    color: #9E7682;
+    background-color: white;
+    border:1px solid #9E7682;
+    padding: 9px 26px 9px 26px;
+    font-family: "Seravek";
+    font-weight:normal;
+    font-size: 25px;
+    line-height: 25px;
     cursor: pointer;
     margin: 10px;
+    border-radius:4px;
+    width:200px;
+    transition:0.5s;
 }
-  
-.btn1:hover,.btn2:hover {
-    color: #fff;
+.btn3:hover,.btn4:hover{
+    background-color:#9E7682;
+    color:white;
 }
-  
+.btn1{
+    position:relative;
+    left:-45px;
+}
+.btn2{
+    position:relative;
+    left:45px;
+}
+.btn3{
+    position:relative;
+    left:-370px;
+}
+.btn4{
+    position:relative;
+    left:380px;
+}
