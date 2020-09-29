@@ -1,5 +1,5 @@
 body {
-  background-image: url("/Users/sebastianveum/Documents/Group-project-master/img/shutterstock_631879034.jpg");
+  background-image: url("img/shutterstock_631879034.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -38,5 +38,4 @@ body {
 
 .btn1:hover,.btn2:hover {
   color: #fff;
-
 }
