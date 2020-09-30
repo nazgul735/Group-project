@@ -1,15 +1,31 @@
 /*----------------------------------
+GENERAL
+------------------------------------
+*/
+header{
+    background-color: #FFE0CC;
+
+}
+body{
+    margin:0;
+}
+
+
+
+
+
+
+/*----------------------------------
 HOMEPAGE
 ------------------------------------
 */
 
-body {
+.homepage {
     background-image: url("../img/shutterstock_631879034.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
-
 img{
     display:block;
     margin-left:auto;
