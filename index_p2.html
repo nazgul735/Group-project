@@ -12,11 +12,13 @@
       <header>
         <div class="intro">
           <img src="img/logo-studentmegleren-SVART.png" alt="Studentmegleren">
-          <div class="menu">
+          <div class="menu" id="menu1">
             <a href="#docdetail">Document Details</a>
             <a href="#admindetails">Administrative Details</a>
             <a href="#goalsaudience">Purpose, goals and audience</a>
             <a href="#navstructure">Navigation Structure</a>
+          </div>
+          <div class="menu" id="menu2">
             <a href="#layandappear">Page layout and appearance</a>
             <a href="#content">Content</a>
             <a href="#minrequire">Minimum Requirements</a>
@@ -37,7 +39,7 @@
             mybutton.style.display = "none";
           }
         }
-        
+
         function topFunction() {
           document.body.scrollTop = 0;
           document.documentElement.scrollTop = 0;

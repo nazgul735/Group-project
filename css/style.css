@@ -51,11 +51,29 @@ body {
   position: relative;
   top:5px;
 }
-.intro .menu{
+.intro #menu1{
   position:absolute;
   top:1rem;
   right:1rem;
 }
+.intro #menu2{
+  position:absolute;
+  top:4rem;
+  right:1rem;
+}
+#menu1 > a:nth-child(1) {
+  margin-right: 5.25rem;
+}
+#menu2 > a:nth-child(4) {
+  margin-right: 7.45rem;
+}
+#menu2 > a:nth-child(3) {
+  margin-right: 2.35rem;
+}
+#menu2 > a:nth-child(2) {
+  margin-right: 6.38rem;
+}
+
 .menu{
   background-color: black;
 }
