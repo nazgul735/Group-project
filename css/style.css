@@ -1,5 +1,6 @@
 html {
   background-color: none;
+  scroll-behavior: smooth;
 }
 body {
   line-height: 1.5em;
@@ -63,6 +64,7 @@ header{
   margin-right:10%;
   text-align:left;
 }
+
 .next_dest ul{
   list-style-image:url(../img/icons8-check-all-50.png) ;
 }
