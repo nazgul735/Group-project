@@ -4,29 +4,45 @@
     <meta charset="utf-8">
     <title>Group 15</title>
     <link rel = "icon" href="img/logo-studentmegleren-favicon.png" type='image/x-icon'>
-    <link rel = "stylesheet"
-    type = "text/css"
-    href = "css/style.css" />
+    <link rel = "stylesheet" type = "text/css" href = "css/style.css" >
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f4c3279381.js" crossorigin="anonymous"></script>
   </head>
- 
-    <header>
-      <div class="intro">
-        <img src="img/logo-studentmegleren-SVART.png" alt="Studentmegleren">
-        <h1> P2 Design Guidelines</h1>
-        <div class="menu">
-          <a href="#docdetail">Document Details</a>
-          <a href="#admindetails">Administrative Details</a>
-          <a href="#goalsaudience">Purpose, goals and audience</a>
-          <a href="#navstructure">Navigation Structure</a>
-          <a href="#layandappear">Page layout and appearance</a>
-          <a href="#content">Content</a>
-          <a href="#minrequire">Minimum Requirements</a>
-          <a href="#plan">Plan</a>
-        </div>
-      </div>
-    </header>
-
     <body>
+      <header>
+        <div class="intro">
+          <img src="img/logo-studentmegleren-SVART.png" alt="Studentmegleren">
+          <div class="menu">
+            <a href="#docdetail">Document Details</a>
+            <a href="#admindetails">Administrative Details</a>
+            <a href="#goalsaudience">Purpose, goals and audience</a>
+            <a href="#navstructure">Navigation Structure</a>
+            <a href="#layandappear">Page layout and appearance</a>
+            <a href="#content">Content</a>
+            <a href="#minrequire">Minimum Requirements</a>
+            <a href="#plan">Plan</a>
+          </div>
+          <h1> P2 Design Guidelines</h1>
+        </div>
+      </header>
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up" style="font-size:30px;"></i></button>
+      <script>
+        var mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+  
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
       <section class="paragraphbox" id="docdetail">
         <h2> 1. Document Details</h2>
         <p>P2 Project Requirements</p>
@@ -49,7 +65,7 @@
         <p>The navigation structure for the website  is stylish and simple. When the user visits the site two clickable boxes will appear. One for the one looking for an apartment and another one for the person seeking to rent out an apartment.</p>
         <p>The reason it is that simple is to make sure no one feels the process will be complex, exhausting or takes the company as not trustworthy.  Shortly after a consumer has picked one of the boxes information, pictures and animations will appear. Shortly after will the contacting part happen. The consumer will arrive at the page where it’s possible to send a mail to the company and this is the first step of the dialog.</p>
         <figure>
-          <img src="img/p2/navigation bar.JPG" alt="The navigation structure of the website">
+          <img class="imgbox" id="fig1" src="img/p2/navigation bar.JPG" alt="The navigation structure of the website">
           <figcaption>Figure 1: Navigation Structure</figcaption>
         </figure>
       </section>
@@ -57,15 +73,15 @@
         <h2>5. Page Layout and Appearance</h2>
         <p>We wanted to have a clean look on the website, it also had to look professional. The reason for why we wanted this, is because we wanted a website who the user could trust. This is really important in the field that Studentmegleren will operate. The website should convince the customer and then prompt them to take contact, therefore we wanted to have a button on all pages for this. When it comes to the homepage, we wanted to have a really clean look with the navigation bar and two buttons (see mockup of homepage.html). The navigation bar provides tabs covering all the topics. Even though we only have one page for “utleier” and “leietager”, the user can choose what topic they want to read about. When we showed the design mockups to Studentmegleren, they were really pleased with the design and the colors. We are also making the website well structured and clean, so that it will be easy to update/upgrade the website further on. </p>
         <figure>
-          <img id="fig2" src="img/p2/design_system.png" alt="Design system"  width="700">
+          <img class="imgbox" id="fig2" src="img/p2/design_system.png" alt="Design system"  width="700">
           <figcaption>Figure 2: Mockup of designsystem</figcaption>
         </figure>
         <figure>
-          <img id="fig3" src="img/p2/colors.png" alt ="Colors" width="700">
+          <img class="imgbox" id="fig3" src="img/p2/colors.png" alt ="Colors" width="700">
           <figcaption>Figure 3: Colors that will be used on the website</figcaption>
         </figure>
         <figure>
-          <img id="fig4" src="img/p2/font_page.png" alt="Fonts" width="700">
+          <img class="imgbox" id="fig4" src="img/p2/font_page.png" alt="Fonts" width="700">
           <figcaption>Figure 4: Font-styles</figcaption>
         </figure>
         <h4>The specific styling for the website that will apply to all pages can be found below:</h4>
@@ -119,8 +135,8 @@
           <li>Homepage - <em>homepage.html</em> 
             <p>The homepage will be the first page that will appear when users visit the website. Although the homepage will not include any content except 2 options of Utleier and Leietager, a larger image will appear and give users a preview of the content of Studentmegleren website.</p> 
             <p>The homepage will fulfill the goal of intriguing users about Studentmegleren. Consistent with the universal designs of this website, we will therefore create a homepage that is simple and will attract the attention of users to further explore the website. Because too much text will make the user bored. By keeping the text to a minimum, we will also be able to prompt users to the navigation bar.</p>          
-            <figure>
-              <img src="img/p2/home_page.png" alt="Homepage" width="700">
+            <figure> 
+              <img class="imgbox" id="fig5" src="img/p2/home_page.png" alt="Homepage" width="700">
               <figcaption>Figure 5: Mockup of homepage.html</figcaption>
             </figure>
           </li>
@@ -128,7 +144,7 @@
             <p>The “About” page will provide a brief biography about Studentmegleren and the work that Studentmegleren does. </p> 
             <p>This page will help us to inform the both tenants and landlords that Studentmegleren are a serious company and how they are the best choice for the customer. This page will later on get sub-pages related to Studentmegleren and what they do.</p>  
             <figure>
-		          <img src="img/p2/about_page.png" alt="About page" width="700">
+		          <img class="imgbox" id="fig6" src="img/p2/about_page.png" alt="About page" width="700">
 			        <figcaption>Figure 6: Mockup of about.html</figcaption>
 		        </figure>
           </li>
@@ -136,7 +152,7 @@
             <p>This page is for people searching for a place to live. Mainly directed to students. First of all there will be two buttons/widgets; “Finn boliger i Trondheim” and “Slipp depositum, velg leiegaranti”. This will lead to two pages, we have not provided a mockup for this, because this is only on the clients wish-list. “Finn boliger i Trondheim” will lead to a page where the user can see what kind of apartments/houses are available for rental in Trondheim. “Slipp depositum, velg leiegaranti” will lead the customer to a section or page where they can find out how much they have to pay if they want to use “Leiegaranti” instead of normal security. Secondly there will be a section showing some advantages. Here the user can see why they as a renter should rent through Studentmegleren. After this there will be a small section, for students. This page is not part of the scope, but the idea is that students will get more through Studentmegleren and this page will show discounts, workshops etc. The next section will explain what the procedure is for the user. There will be headings and when the user clicks it the field will extend and show more information.</p>
             <p>This page will fulfill the goal of providing the best experience for the people searching for a new place. The page will be very informative, but also clean at the same time. We also have two buttons, both on top and at the bottom to prompt the user to take contact with Studentmegleren. </p>
             <figure>
-              <img src="img/p2/leietaker_page.png" alt="Leietaker page" width="700">
+              <img class="imgbox" id="fig7" src="img/p2/leietaker_page.png" alt="Leietaker page" width="700">
               <figcaption>Figure 7: Mockup of Leietaker.html</figcaption>
             </figure>
           </li>
@@ -144,7 +160,7 @@
             <p>This page is for the people that want to rent out their apartment. This page has to look really professional and it has to make Studentmegleren look trustworthy, because the people coming to this page are looking for people that can be responsible for their apartments/houses. The page will start with the advantages that follow by choosing Studentmegleren. After this there will be a section that informs the user what the normal procedure is (“Slik fungerer det”). Lastly there will be two colons showing prices for both “Utleie” and “Forvaltning”. We also have two buttons on this page, both on top and on the bottom to prompt the user to take contact with Studentmegleren.</p>
             <p>We believe that this page will look professional. We are trying to not have too much information on the page, and instead try to have information hidden. If the user wants they can read more</p>
             <figure>
-              <img src="img/p2/utleier_page.png" alt="Utleier page" width="700">
+              <img class="imgbox" id="fig8" src="img/p2/utleier_page.png" alt="Utleier page" width="700">
               <figcaption>Figure 8: Mock up of Utleier.html</figcaption>
              </figure>
           </li>
@@ -152,7 +168,7 @@
             <p>This page will include contact information such as email, telephone number and address) Also a map that shows the STUDENTMEGLEREN location (we will use iframe) . There will also be a contact form for the user. This is the page that the user will be directed to if they choose to click either “Kom i gang” or “Ta kontakt”. </p>
             <p>This page will fulfill the goal of providing the users that want to get in contact with Studentmegleren the required information. We will provide a renting form on the right of this page, which users will instantly be able to fill out to show their interest in renting or renting out the house.</p>
             <figure>
-              <img src="img/p2/kontakt_page.png" alt="Contact page" width="700">
+              <img class="imgbox" id="fig9" src="img/p2/kontakt_page.png" alt="Contact page" width="700">
               <figcaption>Figure 9: Mock up of Kontakt.html</figcaption>
             </figure>
           </li>
@@ -308,7 +324,7 @@
             </tr>
           </tbody>
         </table>
-        <h3>Wish-list</h3>
+        <h3>Wish-list:</h3>
         <table>
           <thead>
             <tr>
@@ -340,29 +356,30 @@
           </tbody>
         </table>
       </section>
-    </body>
     <footer>
-      <div class="next_dest" id="next_dest">
-        <ul>
-          <li><a href="Documents/P1_Project_Requirements_v2.pdf" target="_blank">P1 Requirements 23.09.20 23:59</a></li>
-          <li><a href="Documents/P2_Project_Design_v2.pdf" target="_blank">P2 Design 04.10.20 23:59</a></li>
-          <li><a href="Documents/P3_Project_Coding_v2.pdf" target="_blank">P3 Code 05.11.20 23:59 </a></li>
-          <li><a href="Documents/P4_Project_Testing_v2.pdf" target="_blank">P4 Test 05.11.20 23:59</a></li>
-        </ul>
-      </div>
-      <div class="member_list" id="member_list">
-        <ul>
-          <li><a href="https://www.facebook.com/profile.php?id=100009606035158" target="_blank">Amir Ghaedi</a></li>
-          <li><a href="https://www.facebook.com/Veiium" target="_blank">Sebastian Veum</a></li>
-          <li><a href="https://www.facebook.com/idamaria.c.melen" target="_blank">Ida Maria Corsepius Melen</a></li>
-          <li><a href="https://www.facebook.com/francinvincent" target="_blank">Francin Vincent</a></li>
-        </ul>
-      </div>
-      <img src="img/logo-studentmegleren-utenbak-svart.png">
-       <p>
-        &#169 2020 Studentmegleren All Rights Reserved
-       </p>     
-    </footer>
+        <div class="next_dest" id="next_dest">
+          <ul>
+            <li><a href="Documents/P1_Project_Requirements_v2.pdf" target="_blank">P1 Requirements 23.09.20 23:59</a></li>
+            <li><a href="Documents/P2_Project_Design_v2.pdf" target="_blank">P2 Design 04.10.20 23:59</a></li>
+            <li><a href="Documents/P3_Project_Coding_v2.pdf" target="_blank">P3 Code 05.11.20 23:59 </a></li>
+            <li><a href="Documents/P4_Project_Testing_v2.pdf" target="_blank">P4 Test 05.11.20 23:59</a></li>
+          </ul>
+        </div>
+        <div class="member_list" id="member_list">
+          <ul>
+            <li><a href="https://www.facebook.com/profile.php?id=100009606035158" target="_blank">Amir Ghaedi</a></li>
+            <li><a href="https://www.facebook.com/Veiium" target="_blank">Sebastian Veum</a></li>
+            <li><a href="https://www.facebook.com/idamaria.c.melen" target="_blank">Ida Maria Corsepius Melen</a></li>
+            <li><a href="https://www.facebook.com/francinvincent" target="_blank">Francin Vincent</a></li>
+          </ul>
+        </div>
+        <img src="img/logo-studentmegleren-utenbak-svart.png">
+         <p>
+          &#169 2020 Studentmegleren All Rights Reserved
+         </p>     
+      </footer>
+    </body>
+    
         
  
 </html>
