@@ -1,1 +1,1 @@
-document.write(<div id="logo_header"><a href="homepage.html"><img src="img/logo/logo-studentmegleren-utenbak-svart.png" alt="Logo" width="200"></a></div><div class="topnav"><a href="utleier.html">Utleier</a><a href="leietaker.html">Leietaker</a><a href="about.html">Om oss</a><a href="kontakt.html">Kontakt</a></div>)
+$("#header").load("header.html #headermod")
