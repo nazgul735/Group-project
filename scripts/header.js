@@ -1,11 +1,10 @@
 document.write('\
-\
     <div id ="logo_header">\
-\   
+\
     <a href="homepage.html">\
 \   
     <img src="img/logo/logo-studentmegleren-utenbak-svart.png"></img>\
-\   <a/>    
+    \  <a/>    
 ')
 
 
