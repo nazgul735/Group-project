@@ -36,7 +36,6 @@ HEADER
 
 header {
     display: block;
-    position: fixed;
     left: 0%;
     right: 0%;
     top: 0%;
@@ -140,8 +139,8 @@ FORM
 
 form {
     float: right;
-    padding: 2rem 2rem 2rem 2rem;
     max-width: 500px;
+    margin-right: 128px;
 }
 
 fieldset {
