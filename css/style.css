@@ -2,47 +2,56 @@
 GENERAL
 ------------------------------------
 */
-body{
+
+body {
     margin: 0;
     padding: 0;
     height: 100%;
     font-family: 'Quicksand';
     font-style: normal;
-    font-weight: normal;   
+    font-weight: normal;
 }
+
 a:link {
     text-decoration: none;
 }
+
 a:visited {
     text-decoration: none;
-}  
+}
+
 a:hover {
     text-decoration: underline;
-}  
+}
+
 a:active {
     text-decoration: underline;
 }
+
+
 /*----------------------------------
 HEADER
 ------------------------------------
 */
 
-header{
-    display:inline-block;
-    position:fixed;
-    left:0%;
-    right:0%;
-    top:0%;
-    height:160px;
+header {
+    display: block;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    height: 160px;
     background-color: #FFE0CC;
     vertical-align: middle;
 }
-#logo_header{
+
+#logo_header {
     float: left;
     width: 20%;
     margin-top: 20px;
 }
-.topnav{
+
+.topnav {
     float: right;
     font-size: 27px;
     line-height: 34px;
@@ -54,64 +63,66 @@ header{
     margin-top: 50px;
     margin-right: 4rem;
     width: 60%;
-    vertical-align:middle;
+    vertical-align: middle;
 }
-.topMenuElement{
+
+.topMenuElement {
     padding: 1rem;
     color: #4D4861;
 }
+
 
 /*----------------------------------
 BUTTONS
 ------------------------------------
 */
 
-
 .buttonPink {
     color: #fff;
     background-color: #9E7682;
     padding: 32px 32px 32px 32px;
-    font-size:25px;
+    font-size: 25px;
     font-family: "Quicksand";
-    font-weight:normal;
+    font-weight: normal;
     line-height: 25px;
     cursor: pointer;
     margin: 10px;
     border-radius: 0px;
     width: 200px;
-    border:none;
-    transition:0.3s;
-    opacity:1;
+    border: none;
+    transition: 0.3s;
+    opacity: 1;
 }
 
-.buttonPink:hover{
-    color:#605770;
-    
+.buttonPink:hover {
+    color: #605770;
 }
 
 
+/*----------------------------------
+FONTS
+------------------------------------
+*/
 
+.H1 {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 63px;
+    line-height: 79px;
+}
 
-
-
-
-
-
-  
 
 /*----------------------------------
 HOMEPAGE
 ------------------------------------
 */
 
-
-
 .homepage {
     background-image: url("../img/imagesslider/img1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    
 }
 
 #homepagebuttons {
@@ -119,16 +130,95 @@ HOMEPAGE
     top: 50%;
     left: 50%;
     margin-left: -210px;
-   
-  
 }
 
+
+/*----------------------------------
+FORM
+------------------------------------
+*/
+
+form {
+    float: right;
+    padding: 2rem 2rem 2rem 2rem;
+    max-width: 500px;
+}
+
+fieldset {
+    border: none;
+}
+
+input {
+    color: black;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: normal;
+}
+
+input[type=text] {
+    padding: 4px 4px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #F5F3F3;
+    border: none;
+    width: 100%;
+}
+
+textarea {
+    height: 128px;
+    padding: 4px 4px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #F5F3F3;
+    border: none;
+    width: 100%;
+}
+
+#fritekst paceholder {
+    vertical-align: top;
+}
+
+input[type=radio] {
+    color: rgb(179, 35, 35);
+    /*funker ikke*/
+}
+
+input[type=integer] {
+    padding: 4px 4px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #F5F3F3;
+    border: none;
+    width: 100%;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+input:valid {
+    border: 1px solid green;
+}
+
+button {
+    background-color: #9E7682;
+    color: white;
+    padding: 1rem 2rem;
+    float: right;
+    border: none;
+}
+
+button:hover {
+    background-color: #605770;
+    color: white;
+}
 
 
 /*----------------------------------
 DONT KNOW IF NEEDED
 ------------------------------------
 */
+
 
 /*
 img{
@@ -193,5 +283,3 @@ img{
     left:380px;
 }
 */
-
-

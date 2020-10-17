@@ -1,55 +1,106 @@
 <!DOCTYPE html>
 <html lang="nb">
-    <head>
-        <meta charset="UTF-8">
-        <title>Studentmegleren</title>
-        <link rel = "icon" href="img/logo-studentmegleren-favicon.png" type='image/x-icon'>
-        <link rel = "stylesheet"
-        type = "text/css"
-        href = "css/style.css" />
-        <script src="https://kit.fontawesome.com/f4c3279381.js" crossorigin="anonymous"></script>
-    </head>
-    <body class="kontakt">
-        <header>
-            <div id="logo_header">
-                <a href="homepage_two.html">
-                    <img src="img/logo-studentmegleren-utenbak-svart.png">
-                </a>
-            </div>
-            <div class="topnav">
-                <a href="utleier.html">Utleier</a>
-                <a href="leietaker.html">Leietaker</a>
-                <a href="about.html">Om oss</a>
-                <a href="kontakt.html">Kontakt</a>
-            </div>
-        </header>
-        <footer>
-            <img src="img/logo-studentmegleren-utenbak-white.png">
-            <div class="contact_footer">
-                <h4>Studentmegleren</h4>
-                <i class="fas fa-phone"><a href="tel:+47 46 62 94 90">Telefon: 46 62 94 90</a></i>
-                <i class="fas fa-envelope"><a href="mailto:hei@studentmegleren.no">E-post: hei@studentmegleren.no</a></i>
-            </div>
-            <div class="newsletter_footer">
-                <h4>Meld deg på vårt nyhetsbrev</h4>
-            </div>
-            <div class="links_one_footer">
-                <ul>
-                    <li><a href="utleier.html">Leie ut bolig</a></li>
-                    <li><a href="leietaker.html">Bolig til leie</a></li>
-                </ul>
-            </div>
-            <div class="links_two_footer">
-                <ul>
-                    <li><a href="about.html">Om oss</a></li>
-                    <li><a href="kontakt.html">Kontakt</a></li>
-                </ul>
-            </div>
-            <div class="some_footer">
-                <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.youtube.com"><i class="fab fa-youtube-square"></i></a>
-            </div>
-        </footer>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Studentmegleren</title>
+    <link rel="icon" href="img/logo/logo-studentmegleren-favicon-svart.png" type='image/x-icon'>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+</head>
+
+<body class="kontakt">
+    <header>
+        <div id="logo_header">
+            <a href="homepage_two.html">
+                <img src="img/logo/logo-studentmegleren-utenbak-svart.png" alt="Logo header" width="200">
+            </a>
+        </div>
+        <div class="topnav">
+            <a href="utleier.html" class="topMenuElement">Utleier</a>
+            <a href="leietaker.html" class="topMenuElement">Leietaker</a>
+            <a href="about.html" class="topMenuElement">Om oss</a>
+            <a href="kontakt.html" class="topMenuElement">Kontakt</a>
+        </div>
+    </header>
+
+    <form action="" method="post">
+
+        <fieldset>
+            <H1> Kontakt</H1>
+            <legend>Legg igjen mailen eller telefonnummeret ditt, så tar vi kontakt med deg, helt uforpliktende!
+            </legend>
+            <br>
+
+            <label for="E-mail">
+                E-post
+                <input type="text" id="email" name="email"  placeholder="E-post" required pattern="[^ @]*@[^ @]*">
+            </label>
+            <br>
+
+            <label for="phone">
+                Telefon
+                <input type="integer" placeholder="Telefon">
+            </label>
+            <br>
+
+
+            <input type="radio" id="utleier" name="rolle" required>
+            <label for="utleier">
+                    Interresert i å leie ut
+                
+            <input type="radio" id="leietager" name="rolle">
+            <label for="leietager">
+                    Interresert i å leie
+                </label>
+            <input type="radio" id="annet" name="rolle">
+            <label for="annet">
+                    Annet
+                </label>
+            </label>
+            <br>
+
+
+            <textarea type="text" id="fritekst" name="fritekst" placeholder="Noe på hjertet? (Valgfritt)">
+            </textarea>
+
+            <br>
+
+            <button type="submit" name="submit">Send</button>
+        </fieldset>
+    </form>
+
+    <!--
+    <footer>
+        <img src="img/logo-studentmegleren-utenbak-white.png">
+        <div class="contact_footer">
+            <h4>Studentmegleren</h4>
+            <i class="fas fa-phone"><a href="tel:+47 46 62 94 90">Telefon: 46 62 94 90</a></i>
+            <i class="fas fa-envelope"><a href="mailto:hei@studentmegleren.no">E-post: hei@studentmegleren.no</a></i>
+        </div>
+        <div class="newsletter_footer">
+            <h4>Meld deg på vårt nyhetsbrev</h4>
+        </div>
+        <div class="links_one_footer">
+            <ul>
+                <li><a href="utleier.html">Leie ut bolig</a></li>
+                <li><a href="leietaker.html">Bolig til leie</a></li>
+            </ul>
+        </div>
+        <div class="links_two_footer">
+            <ul>
+                <li><a href="about.html">Om oss</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+        <div class="some_footer">
+            <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.youtube.com"><i class="fab fa-youtube-square"></i></a>
+        </div>
+    </footer>
+
+    -->
+</body>
+
 </html>
