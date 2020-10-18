@@ -88,17 +88,23 @@ footer{
     left:0%;
     bottom:0%;
     right:0%;
-    height:208px;
+    height:170px;
     vertical-align: middle;
     position: absolute;
     color:black;
 }
+footer img{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
 #contactinfo_footer{
     position: absolute;
-    left:20%;
-    top:24%;
-    bottom:12%;
-    line-height: 1.5em;
+    top: -6%;
+    left: 17%;
+    line-height: 2;
 }
 #contactinfo_footer h4{
     font-size: 1.33333em;
@@ -106,21 +112,7 @@ footer{
     font-weight: 900;
     text-decoration: underline;
 }
-#links_one_footer{
-    position:absolute;
-    left:40%;
-    top:24%;
-    bottom:12%;
-}
-#links_two_footer{
-    position:absolute;
-    left:50%;
-    top:24%;
-    bottom:12%;
-}
-footer ul{
-    list-style-image: url('../img/chevron-right-solid.svg');
-}
+
 #newsletter_footer{
     position: absolute;
     left: 70.49%;
@@ -130,12 +122,47 @@ footer ul{
     background: rgba(196, 196, 196, 0.3);
     padding:0.5rem;
 }
-
-.some_footer{
-    right:0%;
-
+#newsletter_footer h4{
+    margin:0.5rem;
+}
+#newsletter_form{
+    margin:0.5rem;
 }
 
+#some_footer{
+    position: absolute;
+    right:4%;
+    bottom:7%;
+}
+#some_footer a{
+    margin-left:2px;
+    margin-right:2px;
+    color:#4D4861;
+}
+#some_footer>a:hover{
+    color:#9E7682;
+}
+footer input[type=email]{
+    width:66%;
+    font-family: "Quicksand";
+    height:25px;
+    font-size: 15px;
+}
+.email_newsletter_submit{
+    background-color: #9E7682;
+    border:none;
+    font-family: "Quicksand";
+    height:33px;
+    cursor: pointer;
+    vertical-align: top;
+    width:80px;
+    font-size:15px;
+    margin-left:1rem;
+    color:white;
+}
+.email_newsletter_submit:hover{
+    background-color: #4D4861;
+}
 
 
 
@@ -201,28 +228,28 @@ HOMEPAGE
 
 
 /*----------------------------------
-FORM
+CONTACT FORM
 ------------------------------------
 */
 
-form {
+#contactform {
     float: right;
     max-width: 500px;
     margin-right: 128px;
 }
 
-fieldset {
+#contactform fieldset {
     border: none;
 }
 
-input {
+#contactform input {
     color: black;
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: normal;
 }
 
-input[type=text] {
+#contactform input[type=text] {
     padding: 4px 4px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -231,7 +258,7 @@ input[type=text] {
     width: 100%;
 }
 
-textarea {
+#contactform textarea {
     height: 128px;
     padding: 4px 4px;
     margin: 8px 0;
@@ -245,12 +272,12 @@ textarea {
     vertical-align: top;
 }
 
-input[type=radio] {
+#contactform input[type=radio] {
     color: rgb(179, 35, 35);
     /*funker ikke*/
 }
 
-input[type=integer] {
+#contactform input[type=integer] {
     padding: 4px 4px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -259,11 +286,11 @@ input[type=integer] {
     width: 100%;
 }
 
-input:invalid {
+#contactform input:invalid {
     border: 1px solid red;
 }
 
-input:valid {
+#contactform input:valid {
     border: 1px solid green;
 }
 
@@ -281,72 +308,3 @@ button:hover {
 }
 
 
-/*----------------------------------
-DONT KNOW IF NEEDED
-------------------------------------
-*/
-
-
-/*
-img{
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    top:-25px;
-    position:relative;
-}
-#btn {
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    top:30px;
-}
-#last_btn {
-    text-align: center;
-    transition: all 0.5s;
-    position: relative;
-    overflow: hidden;
-    top:160px;
-}
-
-
-.btn3,.btn4 {
-    color: #9E7682;
-    background-color: white;
-    border:1px solid #9E7682;
-    padding: 9px 26px 9px 26px;
-    font-family: "Quicksand";
-    font-weight:normal;
-    font-size: 25px;
-    line-height: 25px;
-    cursor: pointer;
-    margin: 10px;
-    border-radius:4px;
-    width:200px;
-    transition:0.5s;
-}
-
-
-.btn3:hover,.btn4:hover{
-    background-color:#9E7682;
-    color:white;
-}
-.btn1{
-    position:relative;
-    left:-45px;
-}
-.btn2{
-    position:relative;
-    left:45px;
-}
-
-
-.btn3{
-    position:relative;
-    left:-370px;
-}
-.btn4{
-    position:relative;
-    left:380px;
-}
-*/
