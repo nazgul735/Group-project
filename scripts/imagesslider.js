@@ -1,7 +1,7 @@
 <script>
   var i = 0;
   var image = [];
-  var time = 3000;
+  var time = 40000;
 
   images[0] = 'img1.jpg';
   image[1] =
@@ -12,7 +12,7 @@
   image[6] =
 
   function vhangeImg(){
-    document.slide.src = image[i];
+    document.img.src = image[i];
 
     if(i < image.lengt - 1){
       i++;
@@ -28,4 +28,4 @@
 
 </script>
 
-<img name="slide" width="100%" height="100%">
+<img name="img" width="100%" height="100%">
