@@ -14,10 +14,13 @@ body {
 
 a:link {
     text-decoration: none;
+    color:black;
+    font-family: "Quicksand";
 }
 
 a:visited {
     text-decoration: none;
+    color:black;
 }
 
 a:hover {
@@ -27,7 +30,13 @@ a:hover {
 a:active {
     text-decoration: underline;
 }
-
+.fa-phone-alt:before {
+    margin-right: 1rem;
+}
+.fa-envelope:before{
+    margin-right:1rem;
+}
+   
 
 /*----------------------------------
 HEADER
@@ -69,6 +78,65 @@ header {
     padding: 1rem;
     color: #4D4861;
 }
+/*----------------------------------
+FOOTER
+------------------------------------
+*/
+footer{
+    background-color:#84A9C0 ;
+    display:block;
+    left:0%;
+    bottom:0%;
+    right:0%;
+    height:208px;
+    vertical-align: middle;
+    position: absolute;
+    color:black;
+}
+#contactinfo_footer{
+    position: absolute;
+    left:20%;
+    top:24%;
+    bottom:12%;
+    line-height: 1.5em;
+}
+#contactinfo_footer h4{
+    font-size: 1.33333em;
+    margin-bottom: 0.5rem;
+    font-weight: 900;
+    text-decoration: underline;
+}
+#links_one_footer{
+    position:absolute;
+    left:40%;
+    top:24%;
+    bottom:12%;
+}
+#links_two_footer{
+    position:absolute;
+    left:50%;
+    top:24%;
+    bottom:12%;
+}
+footer ul{
+    list-style-image: url('../img/chevron-right-solid.svg');
+}
+#newsletter_footer{
+    position: absolute;
+    left: 70.49%;
+    right: 3.54%;
+    top: 12.98%;
+    bottom: 35.1%;
+    background: rgba(196, 196, 196, 0.3);
+    padding:0.5rem;
+}
+
+.some_footer{
+    right:0%;
+
+}
+
+
 
 
 /*----------------------------------
