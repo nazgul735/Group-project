@@ -83,25 +83,23 @@ FOOTER
 ------------------------------------
 */
 footer{
+    position:fixed;
     background-color:#84A9C0 ;
     display:block;
-    left:0%;
-    bottom:0%;
-    right:0%;
-    height:170px;
-    vertical-align: middle;
-    position: absolute;
+    left:0;
+    bottom:0;
     color:black;
+    height:170px;
 }
 footer img{
     margin: 0;
-    position: absolute;
+    position: relative;
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 #contactinfo_footer{
-    position: absolute;
+    position: relative;
     top: -6%;
     left: 17%;
     line-height: 2;
@@ -114,7 +112,7 @@ footer img{
 }
 
 #newsletter_footer{
-    position: absolute;
+    position: relative;
     left: 70.49%;
     right: 3.54%;
     top: 12.98%;
@@ -130,7 +128,7 @@ footer img{
 }
 
 #some_footer{
-    position: absolute;
+    position: relative;
     right:4%;
     bottom:7%;
 }
