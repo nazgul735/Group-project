@@ -36,7 +36,7 @@ a:active {
 .fa-envelope:before{
     margin-right:1rem;
 }
-   
+
 
 /*----------------------------------
 HEADER
@@ -305,4 +305,42 @@ button:hover {
     color: white;
 }
 
+/*----------------------------------
+about
+------------------------------------*/
 
+#abouttitle {
+  position: absolute;
+  width: 344px;
+  height: 148px;
+  left: 174px;
+  top: 355px;
+}
+#aboutimg {
+  position: absolute;
+  width: 680px;
+  height: 351px;
+}
+#abouttext {
+  position: absolute;
+  width: 985px;
+  height: 531px;
+  top: 142px;
+  left: 5546px;
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 28px;
+
+
+}
+#aboutbutton {
+  position: absolute;
+  width: 196px;
+  height: 50px;
+  left: calc(50% - 196px/2 + 0.5px);
+  top: calc(50% - 50px/2 + 1.5px);
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #FFFFFF;
+}
