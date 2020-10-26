@@ -8,13 +8,19 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
 </head>
-<body class="homepage">
+<body class="homepage" onload="changeImg()">
     <header></header>
+    <div class="slideshow_homepage_container">
+        <div class="slides fade">
+            <img src="img/imagesslider/img1.jpg" style="height: 100%;">
+        </div>
+    </div>
     <div id="homepagebuttons">
         <button onclick="document.location='utleier.html'" class="buttonPink">Utleier</button>
         <button onclick="document.location='leietaker.html'" class="buttonPink">Leietager</button>
     </div>
-<script src="modularity/header.js"></script>
+    <script src="modularity/header.js"></script>
+    <script src="scripts/imagesslider.js"></script>
 </body>
 
 </html>

@@ -210,12 +210,7 @@ HOMEPAGE
 ------------------------------------
 */
 
-.homepage {
-    background-image: url("../img/imagesslider/img1.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
+
 
 #homepagebuttons {
     position: fixed;
@@ -308,33 +303,34 @@ button:hover {
 /*----------------------------------
 about
 ------------------------------------*/
+.about{
+    width:100%;
+}
+.section{
+    margin:2rem 5rem 2rem 5rem;
+}
+#header_about{
+    height: 40%;
+}
+#about_title {
+  position: relative;
+}
+#about_img{
+   width:40%;
+   
+   position: relative;
+}
 
-#abouttitle {
-  position: absolute;
-  width: 344px;
-  height: 148px;
-  left: 174px;
-  top: 355px;
-}
-#aboutimg {
-  position: absolute;
-  width: 680px;
-  height: 351px;
-}
 #abouttext {
-  position: absolute;
-  width: 985px;
-  height: 531px;
-  top: 142px;
-  left: 5546px;
-  font-family: Roboto;
+  position: relative;
+  width: 60%;
+  font-family: "Quicksand";
   font-size: 24px;
   line-height: 28px;
-
-
+  color:black;
 }
 #aboutbutton {
-  position: absolute;
+  position: relative;
   width: 196px;
   height: 50px;
   left: calc(50% - 196px/2 + 0.5px);
