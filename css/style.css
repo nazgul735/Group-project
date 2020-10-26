@@ -388,3 +388,31 @@ about
   text-align: center;
   color: #FFFFFF;
 }
+
+/*----------------------------------
+UTLEIER
+------------------------------------*/
+
+.utleier section{
+    margin: 2rem 10rem 2rem 10rem;
+    padding:2rem;
+}
+#fordeler{
+    height:500px;
+}
+.box_fordeler{
+    text-align: center;
+    padding:0.5rem;
+}
+#trygghet, #best, #timemoney{
+    float:left;
+    width:31%;
+    margin:0.5rem;
+    
+}
+#knowledge, #responsibility, #satisfied{
+    float:left;
+    width:31%;
+    margin:1rem 0.5rem 1rem 0.5rem;
+    
+}

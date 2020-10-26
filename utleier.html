@@ -10,39 +10,47 @@
     </head>
     <body class="utleier">
         <header></header>
-        <section class="intro_utleier">
+        <div class="dropdown" id="dropdown_utleier">
+            <button class="drop_utleier_btn"></button>
+            <div class="dropdown_content" id="dropdown_content_utleier">
+                <a href="#fordeler">Fordeler</a>
+                <a href="#steps">Slik fungerer det</a>
+                <a href="#priser">Priser</a>
+            </div>
+        </div>
+        <section id="intro_utleier">
             <h1>Vi gjør all jobben for deg</h1>
-            <img src="img/imagesforpages/shutterstock_622608794.jpg">
+            <img src="img/imagesforpages/utleier_html.jpg">
             <button onclick="document.location='kontakt.html'" class="buttonPink">Kom i gang!</button>
         </section>
-        <section class="fordeler">
-            <h2 id=#titlefordeler>Fordeler</h2>
+        <section id="fordeler">
+            <h2 id=#titlefordeler style="text-align: center;">Fordeler</h2>
             <div class="box_fordeler" id="trygghet">
-                <i class="fas fa-shield-alt" style="color:#9E7682"></i>
+                <i class="fas fa-shield-alt fa-7x" style="color:#9E7682"></i>
                 <h3>Trygghet for alle</h3>
             </div>
             <div class="box_fordeler" id="best">
-                <i class="fas fa-trophy" style="color:#9E7682"></i>
+                <i class="fas fa-trophy fa-7x" style="color:#9E7682"></i>
                 <h3>Finner de beste for deg</h3>
             </div>
             <div class="box_fordeler" id="timemoney">
-                <i class="far fa-money-bill-alt" style="color:#9E7682"></i>
+                <i class="far fa-money-bill-alt fa-7x" style="color:#9E7682"></i>
                 <h3>Spar tid og tjen mer</h3>
             </div>
             <div class="box_fordeler" id="knowledge">
-                <i class="fas fa-book" style="color:#9E7682"></i>
+                <i class="fas fa-book fa-7x" style="color:#9E7682"></i>
                 <h3>Vi har kunnskapen</h3>
             </div>
-            <div class="box_fordeler" id="responsbility">
-                <i class="fas fa-handshake" style="color:#9E7682"></i>
+            <div class="box_fordeler" id="responsibility">
+                <i class="fas fa-handshake fa-7x" style="color:#9E7682"></i>
                 <h3>Vi tar ansvar</h3>
             </div>
             <div class="box_fordeler" id="satisfied">
-                <i class="fas fa-smile-wink" style="color:#9E7682"></i>
+                <i class="fas fa-smile-wink fa-7x" style="color:#9E7682"></i>
                 <h3>Vi gjør deg fornøyd</h3>
             </div>
         </section>
-        <section class="steps">
+        <section id="steps">
             <h2 id="titlesteps">Slik fungerer det</h2>
             <h4>Leiebolig sørger for at ditt leieforhold er i trygge hender.</h4>
             <h4>Vi gjør utleie enkelt og trygt for deg.</h4>
@@ -88,9 +96,113 @@
                     </ul>
                 </div>
             </div>
-            
-            
+            <div class="extendfieldinfo" id="oppfolging">
+                <div class="field_header" id="oppfolging_field_header">
+                    <h3>Oppfølging</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="field_text" id="oppfolging_field_text">
+                    <ul>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="extendfieldinfo" id="juridisk">
+                <div class="field_header" id="juridisk_field_header">
+                    <h3>Juridisk</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="field_text" id="juridisk_field_text">
+                    <ul>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="extendfieldinfo" id="mypage">
+                <div class="field_header" id="mypage_field_header">
+                    <h3>Min Side</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="field_text" id="mypage_field_text">
+                    <ul>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="extendfieldinfo" id="economy">
+                <div class="field_header" id="economy_field_header">
+                    <h3>Økonomi</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="field_text" id="economy_field_text">
+                    <ul>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="extendfieldinfo" id="befaringafter_field">
+                <div class="field_header" id="befaringafter_field_header">
+                    <h3>Juridisk</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="field_text" id="befaringafter_field_text">
+                    <ul>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="extendfieldinfo" id="utflytting_field">
+                <div class="field_header" id="utflytting_field_header">
+                    <h3>Juridisk</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="field_text" id="utflytting_field_text">
+                    <ul>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                    </ul>
+                </div>
+            </div>
         </section>
+        <section id="priser">
+            <h2>Priser</h1>
+            <div class="col" id="col_1_utleie">
+                <h4>Utleie</h4>
+                <ul>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                </ul>
+            </div>
+            <div class="col" id="col_2_forvaltning">
+                <h4>Forvaltning</h4>
+                <ul>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                </ul>
+            </div>
+        </section>
+        <button onclick="document.location='kontakt.html'" class="buttonPink">Ta kontakt</button>
         <div class="push"></div>
         <footer></footer>
         <script src="modularity/header.js"></script>
