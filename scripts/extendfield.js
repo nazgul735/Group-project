@@ -1,10 +1,9 @@
-var x = document.querySelector(".extendfield_button" ul);
-x.addEventListener("click", extendfield,true)
-function extendfield() {
-    var extend = document.querySelector(".field_text");
-    if (extend.style.display === "none") {
-        extend.style.display = "block";
-    } else {
-        extend.style.display = "none";
-    }
+function extendfield(cl) {
+    var els = document.getElementsByClassName(cl);
+    for (var i=0; i<els.length; ++i) {
+        var s = els[i].style;
+        s.display = s.display==='none' ? 'block' : 'none';
+    };
 }
+
+
