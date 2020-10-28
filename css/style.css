@@ -351,31 +351,45 @@ button:hover {
 /*----------------------------------
 about
 ------------------------------------*/
-.about{
-    width:100%;
-}
-.section{
-    margin:2rem 5rem 2rem 5rem;
-}
-#header_about{
-    height: 40%;
-}
-#about_title {
-  position: relative;
-}
-#about_img{
-   width:40%;
-   
-   position: relative;
+.containerabout{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
+#abouttitle h1{
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 53px;
+  line-height: 79px;
+
+}
+
+.containerabout > div {
+  flex-basis:45%;
+}
+
+#aboutimg img{
+max-width: 100%;
+
+}
+
+#aboutimg{
+  flex-basis: 45%;
+}
 #abouttext {
-  position: relative;
-  width: 60%;
-  font-family: "Quicksand";
+  position: absolute;
+  width: 985px;
+  height: 531px;
+  top: 142px;
+  left: 5546px;
+  font-family: Roboto;
   font-size: 24px;
   line-height: 28px;
-  color:black;
+
+
 }
 #aboutbutton {
   position: relative;
@@ -388,6 +402,7 @@ about
   text-align: center;
   color: #FFFFFF;
 }
+
 
 /*----------------------------------
 UTLEIER
