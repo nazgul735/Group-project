@@ -190,6 +190,26 @@ BUTTONS
     color: #605770;
 }
 
+.buttonpurple {
+    color: #fff;
+    background-color: #605770;
+    padding: 32px 32px 32px 32px;
+    font-size: 25px;
+    font-family: "Quicksand";
+    font-weight: normal;
+    line-height: 25px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 0px;
+    width: 200px;
+    border: none;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+.buttonPink:hover {
+    color: #605770;
+}
 
 /*----------------------------------
 FONTS
@@ -433,3 +453,46 @@ UTLEIER
 .field_text{
     display:none;
 }
+
+/*----------------------------------
+LEIETAKER
+------------------------------------*/
+
+.leietaker section{
+    margin: 2rem 10rem 2rem 10rem;
+    padding:2rem;
+}
+
+#Dinefordeler{
+    height:900px;
+}
+
+#Leieimg img{
+max-width: 40%;
+
+}
+
+#Leieimg{
+  flex-basis: 45%;
+}
+
+#Process, #Clear{
+    float:left;
+    width:50%;
+    margin:4rem 0.5rem 1rem 0.5rem;  
+}
+
+#takecare, #Rent{
+    float:right;
+    width:50%;
+    margin:auto;
+}
+
+header {
+    display: block;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    height: 160px;
+    background-color: #FFE0CC;
+    vertical-align: middle;
