@@ -2,7 +2,6 @@
 GENERAL
 ------------------------------------
 */
-
 body {
     margin: 0;
     padding: 0;
@@ -36,8 +35,27 @@ a:active {
 .fa-envelope:before{
     margin-right:1rem;
 }
-
-
+h1{
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 63px;
+    line-height: 78.75px;
+}
+h2{
+    font-family: 'Quicksand';
+    font-weight:400;
+    font-style:normal;
+    font-size:50px;
+    line-height:62.5px;
+}
+h3{
+    font-family:'Quicksand';
+    font-weight:400;
+    font-style:normal;
+    font-size:30px;
+    line-height:37.5px;
+}
 /*----------------------------------
 HEADER
 ------------------------------------
@@ -59,7 +77,7 @@ header {
     margin-top: 20px;
 }
 
-.topnav {
+.topnav{
     float: right;
     font-size: 27px;
     line-height: 34px;
@@ -73,6 +91,53 @@ header {
     width: 60%;
     vertical-align: middle;
 }
+.dropbtn_utleier{
+    font-size:27px;
+    line-height:34px;
+    background-color: #FFE0CC;
+    text-decoration: none;
+    color:black;
+    font-family: "Quicksand";
+    cursor: pointer;
+}
+#dropdown_triangle{
+    display:none;
+    position: absolute;
+    width:0;
+    height:0;
+    border-left:25px solid transparent;
+    border-right:25px solid transparent;
+    border-bottom:40px solid #605770;
+    left:30px;
+    top:50px;
+}
+.dropbtn_utleier:hover{
+    text-decoration: underline;
+}
+.utleier_dropdown{
+    position:relative;
+    display:inline-block;
+}
+.dropdown_content_utleier{
+    display:none;
+    position: absolute;
+    background-color:#605770;
+    color:white;
+    min-width:160px;
+    z-index:1;
+    top:90px;
+    left:30px;
+}
+.dropdown_content_utleier a{
+    color:white;
+    padding:12px 16px;
+    text-decoration: none;
+    display:block;
+    text-align: left;
+}
+.dropdown_content_utleier a:hover{text-decoration: underline;}
+.utleier_dropdown:hover .dropdown_content_utleier{display:block;}
+.utleier_dropdown:hover #dropdown_triangle{display:block;}
 
 .topMenuElement {
     padding: 1rem;
@@ -110,7 +175,6 @@ footer img{
     font-weight: 900;
     text-decoration: underline;
 }
-
 #newsletter_footer{
     position: absolute;
     left: 70.49%;
@@ -180,7 +244,7 @@ BUTTONS
     cursor: pointer;
     margin: 10px;
     border-radius: 0px;
-    width: 200px;
+    width: 295px;
     border: none;
     transition: 0.3s;
     opacity: 1;
@@ -207,7 +271,7 @@ BUTTONS
     opacity: 1;
 }
 
-.buttonPink:hover {
+.buttonpurple:hover {
     color: #605770;
 }
 
@@ -216,13 +280,6 @@ FONTS
 ------------------------------------
 */
 
-.H1 {
-    font-family: Quicksand;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 63px;
-    line-height: 79px;
-}
 
 
 /*----------------------------------
@@ -354,7 +411,7 @@ CONTACT FORM
 #contactform input:valid {
     border: 1px solid green;
 }
-
+/*
 button {
     background-color: #9E7682;
     color: white;
@@ -362,7 +419,7 @@ button {
     float: right;
     border: none;
 }
-
+/*
 button:hover {
     background-color: #605770;
     color: white;
@@ -378,14 +435,6 @@ about
 
 }
 
-#abouttitle h1{
-  font-family: Quicksand;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 53px;
-  line-height: 79px;
-
-}
 
 .containerabout > div {
   flex-basis:45%;
@@ -400,12 +449,11 @@ max-width: 100%;
   flex-basis: 45%;
 }
 #abouttext {
-  position: absolute;
+  position: relative;
   width: 985px;
   height: 531px;
-  top: 142px;
-  left: 5546px;
-  font-family: Roboto;
+  top:20%;
+  left: 46px;  
   font-size: 24px;
   line-height: 28px;
 
@@ -427,33 +475,123 @@ max-width: 100%;
 /*----------------------------------
 UTLEIER
 ------------------------------------*/
-
 .utleier section{
     margin: 2rem 10rem 2rem 10rem;
     padding:2rem;
 }
-#fordeler{
+
+/*INTRO*/
+#intro_utleier{
+    width:80%;
+    height:550px;
+}
+.intro_utleier_flex h1{
+    float:left;
+    width:22%;
+    position: relative;
+    top:3rem;
+    left:10%;
+}
+.intro_utleier_flex img{
+    float:right;
+    width: 50%;
+}
+.intro_utleier_button{
+    position: relative;
+    top:84%;
+    left:17%;
+}
+/*FORDELER*/
+.fordeler{
     height:500px;
+    position: relative;
+    margin-top: 2rem;
 }
 .box_fordeler{
     text-align: center;
     padding:0.5rem;
+    border:1px solid transparent;
+    transition: 0.8s ease-in;
+    border-radius: 10px 0px 10px 0px;
+}
+.box_fordeler:hover{
+    -webkit-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+	-moz-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+	box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
 }
 #trygghet, #best, #timemoney{
     float:left;
     width:31%;
     margin:0.5rem;
-    
 }
 #knowledge, #responsibility, #satisfied{
     float:left;
     width:31%;
     margin:1rem 0.5rem 1rem 0.5rem;
 }
-.field_text{
-    display:none;
+/*SLIK FUNGERER DET*/
+.field_header{
+    color:white;
+    background-color: #9E7682;
+    height:4rem;
+    margin-bottom:0.5rem;
 }
-
+.field_header h3{
+    margin:1rem;
+    float:left;
+    width:50%;
+    display: block;
+}
+.field_header .fas{
+    float:right;
+    width:10%;
+    font-size:30px;
+    display:block;
+    margin:1rem;
+    text-align: right;
+}
+.field_text{
+    font-size:20px;
+}
+/*PRISER*/
+.col_container{
+    display:flex;
+}
+.col{
+    flex:1;
+    transition: 0.8s ease-in;
+}
+#col_1_utleie{
+    margin-right:5rem;
+}
+.header_col{
+    color:white;
+    background-color: #9E7682;
+    padding:0.5rem;
+}
+.header_col h3{
+    margin:0;
+}
+.col ul{
+    border-left:2px solid #9E7682;
+    border-right:2px solid #9E7682;
+    border-bottom:2px solid #9E7682;
+    padding:2rem;
+    margin:0;
+}
+.col:hover{
+    -webkit-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+	-moz-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+	box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+}
+/*OTHER*/
+.bottom_utleie_button{
+    text-align: center;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:2rem;
+}
 /*----------------------------------
 LEIETAKER
 ------------------------------------*/

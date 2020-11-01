@@ -10,21 +10,15 @@
     </head>
     <body class="utleier">
         <header></header>
-        <div class="dropdown" id="dropdown_utleier">
-            <button class="drop_utleier_btn"></button>
-            <div class="dropdown_content" id="dropdown_content_utleier">
-                <a href="#fordeler">Fordeler</a>
-                <a href="#steps">Slik fungerer det</a>
-                <a href="#priser">Priser</a>
-            </div>
-        </div>
         <section id="intro_utleier">
-            <h1>Vi gjør all jobben for deg</h1>
-            <img src="img/imagesforpages/utleier_html.jpg">
-            <button onclick="document.location='kontakt.html'" class="buttonPink">Kom i gang!</button>
+            <div class="flexbox intro_utleier_flex">
+                <h1>Vi gjør all jobben for deg</h1>
+                <img src="img/imagesforpages/utleier_html.jpg" width="1000">
+            </div>
+            <button onclick="document.location='kontakt.html'" class="buttonPink intro_utleier_button">Kom i gang!</button>
         </section>
         <section id="fordeler">
-            <h2 id=#titlefordeler style="text-align: center;">Fordeler</h2>
+            <h2 id=#titlefordeler>Fordeler</h2>
             <div class="box_fordeler" id="trygghet">
                 <i class="fas fa-shield-alt fa-7x" style="color:#9E7682"></i>
                 <h3>Trygghet for alle</h3>
@@ -52,14 +46,11 @@
         </section>
         <section id="steps">
             <h2 id="titlesteps">Slik fungerer det</h2>
-            <h4>Leiebolig sørger for at ditt leieforhold er i trygge hender.</h4>
-            <h4>Vi gjør utleie enkelt og trygt for deg.</h4>
+            <h3>Leiebolig sørger for at ditt leieforhold er i trygge hender.<br>Vi gjør utleie enkelt og trygt for deg.</h3>
             <div class="extendfieldinfo" id="befaring">
-                <div class="field_header" id="befaring_field_header">
-                    <button onclick="extendfield('befaring_field_text')" class="extendfield_button">
-                        <h3>Befaring</h3>
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
+                <div class="field_header" id="befaring_field_header" onclick="extendField()">
+                    <h3>Befaring</h3>
+                    <i class="fas fa-chevron-down"></i>
                 </div>
                 <div class="field_text" id="befaring_field_text">
                     <ul>
@@ -71,11 +62,9 @@
                 </div>
             </div>
             <div class="extendfieldinfo" id="utleie">
-                <div class="field_header" id="utleie_field_header">
-                    <button onclick="extendfield('field_text')" class="extendfield_button">
-                        <h3>Utleie</h3>
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
+                <div class="field_header" id="utleie_field_header" onclick="extendField()">
+                    <h3>Utleie</h3>
+                    <i class="fas fa-chevron-down"></i>
                 </div>
                 <div class="field_text" id="utleie_field_text">
                     <ul>
@@ -88,10 +77,8 @@
             </div>
             <div class="extendfieldinfo" id="innflytting">
                 <div class="field_header" id="innflytting_field_header">
-                    <button class="extendfield_button">
-                        <h3>Innflytting</h3>
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
+                    <h3>Innflytting</h3>
+                    <i class="fas fa-chevron-down"></i>
                 </div>
                 <div class="field_text" id="innflytting_field_text">
                     <ul>
@@ -104,10 +91,8 @@
             </div>
             <div class="extendfieldinfo" id="oppfolging">
                 <div class="field_header" id="oppfolging_field_header">
-                    <button class="extendfield_button">
-                        <h3>Oppfølging</h3>
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
+                    <h3>Oppfølging</h3>
+                    <i class="fas fa-chevron-down"></i>
                 </div>
                 <div class="field_text" id="oppfolging_field_text">
                     <ul>
@@ -120,10 +105,8 @@
             </div>
             <div class="extendfieldinfo" id="juridisk">
                 <div class="field_header" id="juridisk_field_header">
-                    <button class="extendfield_button">
-                        <h3>Juridisk</h3>
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
+                    <h3>Juridisk</h3>
+                    <i class="fas fa-chevron-down"></i>
                 </div>
                 <div class="field_text" id="juridisk_field_text">
                     <ul>
@@ -136,10 +119,8 @@
             </div>
             <div class="extendfieldinfo" id="mypage">
                 <div class="field_header" id="mypage_field_header">
-                    <div class="extendfield_button">
-                        <h3>Min Side</h3>
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
+                    <h3>Min Side</h3>
+                    <i class="fas fa-chevron-down"></i>
                 </div>
                 <div class="field_text" id="mypage_field_text">
                     <ul>
@@ -152,10 +133,8 @@
             </div>
             <div class="extendfieldinfo" id="economy">
                 <div class="field_header" id="economy_field_header">
-                    <button class="extendfield_button">
-                        <h3>Økonomi</h3>
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
+                    <h3>Økonomi</h3>
+                    <i class="fas fa-chevron-down"></i>
                 </div>
                 <div class="field_text" id="economy_field_text">
                     <ul>
@@ -168,10 +147,8 @@
             </div>
             <div class="extendfieldinfo" id="befaringafter_field">
                 <div class="field_header" id="befaringafter_field_header">
-                    <button class="extendfield_button">
-                        <h3>Juridisk</h3>
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
+                    <h3>Befaring før utflytting</h3>
+                    <i class="fas fa-chevron-down"></i>
                 </div>
                 <div class="field_text" id="befaringafter_field_text">
                     <ul>
@@ -184,11 +161,9 @@
             </div>
             <div class="extendfieldinfo" id="utflytting_field">
                 <div class="field_header" id="utflytting_field_header">
-                    <button class="extendfield_button">
-                        <h3>Juridisk</h3>
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
-                </div>
+                    <h3>Utflytting</h3>
+                    <i class="fas fa-chevron-down"></i>
+                    </div>
                 <div class="field_text" id="utflytting_field_text">
                     <ul>
                         <li>Lorem Ipsum</li>
@@ -200,28 +175,33 @@
             </div>
         </section>
         <section id="priser">
-            <h2>Priser</h1>
-            <div class="col" id="col_1_utleie">
-                <h4>Utleie</h4>
-                <ul>
-                    <li>Lorem Ipsum</li>
-                    <li>Lorem Ipsum</li>
-                    <li>Lorem Ipsum</li>
-                    <li>Lorem Ipsum</li>
-                </ul>
-            </div>
-            <div class="col" id="col_2_forvaltning">
-                <h4>Forvaltning</h4>
-                <ul>
-                    <li>Lorem Ipsum</li>
-                    <li>Lorem Ipsum</li>
-                    <li>Lorem Ipsum</li>
-                    <li>Lorem Ipsum</li>
-                </ul>
+            <h2>Priser</h2>
+            <div class="col_container">
+                <div class="col" id="col_1_utleie">
+                    <div class="header_col col_1_utleie_header">
+                        <h3>Utleie</h3>
+                    </div>
+                    <ul>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                    </ul>
+                </div>
+                <div class="col" id="col_2_forvaltning">
+                    <div class="header_col col_2_utleie_header">
+                        <h3>Forvaltning</h3>
+                    </div>
+                    <ul>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                    </ul>
+                </div>
             </div>
         </section>
-        <button onclick="document.location='kontakt.html'" class="buttonPink">Ta kontakt</button>
-        <div class="push"></div>
+        <button onclick="document.location='kontakt.html'" class="buttonPink bottom_utleie_button">Ta kontakt</button>
         <footer></footer>
         <script src="modularity/header.js"></script>
         <script src="modularity/footer.js"></script>

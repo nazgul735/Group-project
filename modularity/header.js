@@ -12,7 +12,17 @@ function modheader() {
             </a>
         </div>
         <div class="topnav">
-            <a href="utleier.html" class="topMenuElement">Utleier</a>
+            <div class="utleier_dropdown">
+                <a href="utleier.html" class="topMenuElement utleier_Element">Utleier</a>
+                <div class="dropdown_content_utleier_box">
+                    <div id="dropdown_triangle"></div>
+                    <div class="dropdown_content_utleier">
+                        <a href="#fordeler">Fordeler</a>
+                        <a href="#steps">Slik fungerer det </a>
+                        <a href="#priser">Priser </a>
+                    </div>
+                </div>
+            </div>
             <a href="leietaker.html" class="topMenuElement">Leietaker</a>
             <a href="about.html" class="topMenuElement">Om oss</a>
             <a href="kontakt.html" class="topMenuElement">Kontakt</a>
