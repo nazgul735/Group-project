@@ -39,10 +39,7 @@ GENERAL
                                                             margin-right: 1rem;
                                                         }
                                                         
-                                                        #imageKontakt {
-                                                            margin: 2rem;
-                                                            margin-left: 128px;
-                                                        }
+                                                       
                                                         /*----------------------------------
 HEADER
 ------------------------------------
@@ -304,7 +301,7 @@ HOMEPAGE
                                                             margin-left: -210px;
                                                         }
                                                         /*----------------------------------
-CONTACT FORM
+CONTACT 
 ------------------------------------
 */
                                                         
@@ -381,6 +378,13 @@ CONTACT FORM
                                                         button:hover {
                                                             background-color: #605770;
                                                             color: white;
+                                                        }
+
+                                                        #imageKontakt {
+                                                            margin: 2rem;
+                                                            margin-left: 128px;
+                                                            object-fit: cover;
+                                                            float: left;
                                                         }
                                                         /*----------------------------------
 about
