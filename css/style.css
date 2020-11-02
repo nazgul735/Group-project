@@ -2,6 +2,7 @@
 GENERAL
 ------------------------------------
 */
+html{scroll-behavior: smooth;}
 body {
     margin: 0;
     padding: 0;
@@ -354,7 +355,6 @@ HOMEPAGE
 CONTACT 
 ------------------------------------
 */
-<<<<<<< HEAD
 
 #contactform {
     float: right;
@@ -481,35 +481,41 @@ max-width: 100%;
 /*----------------------------------
 UTLEIER
 ------------------------------------*/
-.utleier section{
-    margin: 2rem 10rem 2rem 10rem;
-    padding:2rem;
+section{
+    margin-left:10rem;
+    margin-right: 10rem;
 }
 
 /*INTRO*/
 #intro_utleier{
-    width:80%;
-    height:550px;
+    
+    margin-top:5rem;
+}
+.intro_utleier_flex{
+    display:inline-block;
+    position: relative;
 }
 .intro_utleier_flex h1{
     float:left;
-    width:22%;
+    width:25%;
     position: relative;
-    top:3rem;
-    left:10%;
+    margin:0;
+    vertical-align: center;
 }
 .intro_utleier_flex img{
-    float:right;
-    width: 50%;
+    bottom:2rem;
+    width:50%;
+    position: relative;
+    float: right;
 }
 .intro_utleier_button{
     position: relative;
-    top:84%;
-    left:17%;
+    top:-100px;
+    left:35%;
 }
 /*FORDELER*/
-.fordeler{
-    height:500px;
+#fordeler{
+    min-height:550px;
     position: relative;
     margin-top: 2rem;
 }
@@ -527,15 +533,16 @@ UTLEIER
 }
 #trygghet, #best, #timemoney{
     float:left;
-    width:31%;
-    margin:0.5rem;
+    width:30%;
+ 
 }
 #knowledge, #responsibility, #satisfied{
     float:left;
-    width:31%;
-    margin:1rem 0.5rem 1rem 0.5rem;
+    width:30%;
+    
 }
 /*SLIK FUNGERER DET*/
+.field_text{display:none;}
 .field_header{
     color:white;
     background-color: #9E7682;
@@ -548,7 +555,7 @@ UTLEIER
     width:50%;
     display: block;
 }
-.field_header .fas{
+.field_header .far{
     float:right;
     width:10%;
     font-size:30px;
@@ -596,222 +603,33 @@ UTLEIER
     display: block;
     margin-left:auto;
     margin-right:auto;
+    margin-top:2rem;
     margin-bottom:2rem;
 }
 /*----------------------------------
-=======
-                                                        
-                                                        #contactform {
-                                                            float: right;
-                                                            max-width: 500px;
-                                                            margin-right: 128px;
-                                                        }
-                                                        
-                                                        #contactform fieldset {
-                                                            border: none;
-                                                        }
-                                                        
-                                                        #contactform input {
-                                                            color: black;
-                                                            font-family: 'Quicksand';
-                                                            font-style: normal;
-                                                            font-weight: normal;
-                                                        }
-                                                        
-                                                        #contactform input[type=text] {
-                                                            padding: 4px 4px;
-                                                            margin: 8px 0;
-                                                            box-sizing: border-box;
-                                                            background-color: #F5F3F3;
-                                                            border: none;
-                                                            width: 100%;
-                                                        }
-                                                        
-                                                        #contactform textarea {
-                                                            height: 128px;
-                                                            padding: 4px 4px;
-                                                            margin: 8px 0;
-                                                            box-sizing: border-box;
-                                                            background-color: #F5F3F3;
-                                                            border: none;
-                                                            width: 100%;
-                                                        }
-                                                        
-                                                        #fritekst paceholder {
-                                                            vertical-align: top;
-                                                        }
-                                                        
-                                                        #contactform input[type=radio] {
-                                                            color: rgb(179, 35, 35);
-                                                            /*funker ikke*/
-                                                        }
-                                                        
-                                                        #contactform input[type=integer] {
-                                                            padding: 4px 4px;
-                                                            margin: 8px 0;
-                                                            box-sizing: border-box;
-                                                            background-color: #F5F3F3;
-                                                            border: none;
-                                                            width: 100%;
-                                                        }
-                                                        
-                                                        #contactform input:invalid {
-                                                            border: 1px solid red;
-                                                        }
-                                                        
-                                                        #contactform input:valid {
-                                                            border: 1px solid green;
-                                                        }
-                                                        
-                                                        button {
-                                                            background-color: #9E7682;
-                                                            color: white;
-                                                            padding: 1rem 2rem;
-                                                            float: right;
-                                                            border: none;
-                                                        }
-                                                        
-                                                        button:hover {
-                                                            background-color: #605770;
-                                                            color: white;
-                                                        }
-
-                                                        #imageKontakt {
-                                                            margin: 2rem;
-                                                            margin-left: 128px;
-                                                            object-fit: cover;
-                                                            float: left;
-                                                        }
-                                                        /*----------------------------------
-about
-------------------------------------*/
-                                                        
-                                                        .containerabout {
-                                                            display: flex;
-                                                            align-items: center;
-                                                            justify-content: center;
-                                                        }
-                                                        
-                                                        #abouttitle h1 {
-                                                            font-family: Quicksand;
-                                                            font-style: normal;
-                                                            font-weight: normal;
-                                                            font-size: 53px;
-                                                            line-height: 79px;
-                                                        }
-                                                        
-                                                        .containerabout>div {
-                                                            flex-basis: 45%;
-                                                        }
-                                                        
-                                                        #aboutimg img {
-                                                            max-width: 100%;
-                                                        }
-                                                        
-                                                        #aboutimg {
-                                                            flex-basis: 45%;
-                                                        }
-                                                        
-                                                        #abouttext {
-                                                            position: absolute;
-                                                            width: 985px;
-                                                            height: 531px;
-                                                            top: 142px;
-                                                            left: 5546px;
-                                                            font-family: Roboto;
-                                                            font-size: 24px;
-                                                            line-height: 28px;
-                                                        }
-                                                        
-                                                        #aboutbutton {
-                                                            position: relative;
-                                                            width: 196px;
-                                                            height: 50px;
-                                                            left: calc(50% - 196px/2 + 0.5px);
-                                                            top: calc(50% - 50px/2 + 1.5px);
-                                                            font-size: 40px;
-                                                            line-height: 50px;
-                                                            text-align: center;
-                                                            color: #FFFFFF;
-                                                        }
-                                                        /*----------------------------------
-UTLEIER
-------------------------------------*/
-                                                        
-                                                        .utleier section {
-                                                            margin: 2rem 10rem 2rem 10rem;
-                                                            padding: 2rem;
-                                                        }
-                                                        
-                                                        #fordeler {
-                                                            height: 500px;
-                                                        }
-                                                        
-                                                        .box_fordeler {
-                                                            text-align: center;
-                                                            padding: 0.5rem;
-                                                        }
-                                                        
-                                                        #trygghet,
-                                                        #best,
-                                                        #timemoney {
-                                                            float: left;
-                                                            width: 31%;
-                                                            margin: 0.5rem;
-                                                        }
-                                                        
-                                                        #knowledge,
-                                                        #responsibility,
-                                                        #satisfied {
-                                                            float: left;
-                                                            width: 31%;
-                                                            margin: 1rem 0.5rem 1rem 0.5rem;
-                                                        }
-                                                        
-                                                        .field_text {
-                                                            display: none;
-                                                        }
-                                                        /*----------------------------------
->>>>>>> c499b22cdcaa62184c185d71bb202b2dbd8bd495
 LEIETAKER
 ------------------------------------*/
                                                         
-                                                        .leietaker section {
-                                                            margin: 2rem 10rem 2rem 10rem;
-                                                            padding: 2rem;
-                                                        }
-                                                        
-                                                        #Dinefordeler {
-                                                            height: 900px;
-                                                        }
-                                                        
-                                                        #Leieimg img {
-                                                            max-width: 40%;
-                                                        }
-                                                        
-                                                        #Leieimg {
-                                                            flex-basis: 45%;
-                                                        }
-                                                        
-                                                        #Process,
-                                                        #Clear {
-                                                            float: left;
-                                                            width: 50%;
-                                                            margin: 4rem 0.5rem 1rem 0.5rem;
-                                                        }
-                                                        
-                                                        #takecare,
-                                                        #Rent {
-                                                            float: right;
-                                                            width: 50%;
-                                                            margin: auto;
-                                                        }
-                                                        
-                                                        header {
-                                                            display: block;
-                                                            left: 0%;
-                                                            right: 0%;
-                                                            top: 0%;
-                                                            height: 160px;
-                                                            background-color: #FFE0CC;
-                                                            vertical-align: middle;
+.leietaker section {
+    margin: 2rem 10rem 2rem 10rem;
+    padding: 2rem;
+}
+#Dinefordeler {
+    height: 900px;
+}                                                        
+#Leieimg img {
+    max-width: 40%;
+}                                                        
+#Leieimg {
+    flex-basis: 45%;
+}                                                        
+#Process,#Clear {
+    float: left;
+    width: 50%;
+    margin: 4rem 0.5rem 1rem 0.5rem;
+}                                                        
+#takecare,#Rent {
+    float: right;
+    width: 50%;
+    margin: auto;
+}                          
