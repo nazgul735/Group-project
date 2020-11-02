@@ -334,13 +334,13 @@ HOMEPAGE
                                                             }
                                                         }
                                                         
-                                                        #homepagebuttons {
-                                                            position: fixed;
-                                                            top: 50%;
-                                                            left: 50%;
-                                                            margin-left: -210px;
-                                                        }
-                                                        /*----------------------------------
+#homepagebuttons {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -210px;
+}
+/*----------------------------------
 CONTACT 
 ------------------------------------
 */
@@ -477,27 +477,26 @@ section{
 
 /*INTRO*/
 #intro_utleier{
-    
     margin-top:5rem;
 }
-.intro_utleier_flex{
+.container_intro{
     display:inline-block;
     position: relative;
 }
-.intro_utleier_flex h1{
+.container_intro h1{
     float:left;
     width:25%;
     position: relative;
     margin:0;
     vertical-align: center;
 }
-.intro_utleier_flex img{
+.container_intro img{
     bottom:2rem;
     width:50%;
     position: relative;
     float: right;
 }
-.intro_utleier_button{
+.buttonIntro{
     position: relative;
     top:-100px;
     left:35%;
