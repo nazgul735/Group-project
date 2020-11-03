@@ -17,9 +17,9 @@ function modheader() {
                 <div class="dropdown_content_utleier_box">
                     <div class="dropdown_triangle utleier_triangle"></div>
                     <div class="dropdown_content dropdown_content_utleier">
-                        <a href="#fordeler">Fordeler</a>
-                        <a href="#steps">Slik fungerer det </a>
-                        <a href="#priser">Priser </a>
+                        <a href="utleier.html#fordeler">Fordeler</a>
+                        <a href="utleier.html#steps">Slik fungerer det </a>
+                        <a href="utleier.html#priser">Priser </a>
                     </div>
                 </div>
             </div>
@@ -28,9 +28,9 @@ function modheader() {
                 <div class="dropdown_content_leietaker_box">
                     <div class="dropdown_triangle leietaker_triangle"></div>
                     <div class="dropdown_content dropdown_content_leietaker">
-                        <a href="#dine_fordeler">Fordeler</a>
-                        <a href="#student">Er du student? </a>
-                        <a href="#steps">Slik fungerer det </a>
+                        <a href="leietaker.html#dine_fordeler">Fordeler</a>
+                        <a href="leietaker.html#student">Er du student? </a>
+                        <a href="leietaker.html#steps_leietaker">Slik fungerer det </a>
                     </div>
                 </div>
             </div>
