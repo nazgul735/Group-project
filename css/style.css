@@ -63,7 +63,6 @@ h4{
     font-style:normal;
     font-size:25px;
     line-height: 30px;
-    margin:0.5rem;
 }
 /*----------------------------------
 HEADER
@@ -622,7 +621,7 @@ LEIETAKER
     margin:1rem;
     flex:1;
     text-align: center;
-    min-height:200px;
+    min-height:250px;
 }
 .box_extra_info h4{
     border-bottom:2px solid white;
@@ -640,7 +639,7 @@ LEIETAKER
 }
 /*DINE FORDELER*/
 #dine_fordeler{
-    min-height: 450px;
+    min-height: 525px;
 }
 
 #process,#takecare{
@@ -650,4 +649,29 @@ LEIETAKER
 #clear,#rent{
     float:left;
     width:48%;
+}
+/*ER DU STUDENT?*/
+
+#student{
+    min-height: 125px;
+    border:1px solid #605770;
+    padding:0.5rem;
+    margin:auto;
+    width: 60%;
+}
+#student h4{
+    font-weight: bold;
+    margin:0.5rem;
+}
+#student h3{
+    font-weight: bold;
+    margin:0.5rem;
+}
+#div_student{
+    position: relative;
+    float:left;
+    width:49%;
+}
+#student button{
+    float:right;
 }
