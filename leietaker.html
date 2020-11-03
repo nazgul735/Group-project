@@ -29,54 +29,65 @@
                 <a href="leietaker.html">Regn ut leiegaranti</a>
         </section>
         <section id="dine_fordeler">
-            <h2 id=#titlefordeler style="text-align: center;">Dine Fordeler</h2>
-            <div class="box_fordeler" id="Process">
-                <i class="fas fa-user-check" style="color:#000000"></i>
-                <h3>Vi tar oss av hele prosessen</h3>
-                <p>Du forholder deg til oss i Leiebolig.</p>
+            <h2 id=#titlefordeler>Dine Fordeler</h2>
+            <div class="box_fordeler fordeler_leietaker" id="process">
+                <i class="fas fa-user-check" style="color:#9e7682"></i>
+                <div class="inside_container inside_container_process">
+                    <h4>Vi tar oss av hele prosessen</h4>
+                    <p>Du forholder deg til oss i Leiebolig.</p>
+                </div>
             </div>
-            <div class="box_fordeler" id="takecare">
-                <i class="fas fa-user-check" style="color:#000000"></i>
-                <h3>Vi tar vare på dine rettigheter</h3>
-                <p>Du får en godt utarbeidet leievtale.</p>
+            <div class="box_fordeler fordeler_leietaker" id="takecare">
+                <i class="fas fa-user-check" style="color:#9e7682"></i>
+                <div class="inside_container inside_container_takecare">
+                    <h4>Vi tar vare på dine rettigheter</h4>
+                    <p>Du får en godt utarbeidet leievtale.</p>
+                </div>
             </div>
-            <div class="box_fordeler" id="Clear">
-                <i class="fas fa-user-check" style="color:#000000"></i>
-                <h3>Ryddig og oversiktig</h3>
-                <p>Vi ivaretar leieforholdet fira A til Å.</p>
+            <div class="box_fordeler fordeler_leietaker" id="clear">
+                <i class="fas fa-user-check" style="color:#9e7682"></i>
+                <div class="inside_container inside_container_clear">
+                    <h4>Ryddig og oversiktig</h4>
+                    <p>Vi ivaretar leieforholdet fira A til Å.</p>
+                </div>
             </div>
-            <div class="box_fordeler" id="Rent">
-                <i class="fas fa-user-check" style="color:#000000"></i>
-                <h3>Alle våre boliger er godkjente for utleie</h3>
-                <p>Boligene tilfredsstiller alle formelle krav for utleieboliger.</p>
+            <div class="box_fordeler fordeler_leietaker" id="rent">
+                <i class="fas fa-user-check" style="color:#9e7682"></i>
+                <div class="inside_container inside_container_rent">
+                    <h4>Alle våre boliger er godkjente for utleie</h4>
+                    <p>Boligene tilfredsstiller alle formelle krav for utleieboliger.</p>
+                </div>
             </div>
         </section>
         <section id="student">
-                <h2 id="dustudent"> Er du student?</h2>
-                <h3>Les mer her,på hvorfor du som student bør velge oss!</h3>
-                <button onclick="document.location='kontakt.html'" class="buttonpurple">Les mer!</button>
+            <div>   
+                <h3> Er du student?</h3>
+                <h4>Les mer her,på hvorfor du som student bør velge oss!</h4>
+                <button onclick="document.location='" class="buttonPurple buttonStudent">Les mer!</button>
             </div>
         </section>
         <section id="steps">
             <h2 id="titlesteps">Slik fungerer det</h2>
-            <div class="extendfieldinfo" id="befaring">
-                <div class="field_header" id="befaring_field_header">
-                    <button onclick="extendfield('befaring_field_text')" class="extendfield_button">
-
-                        <h3>Lorem Ipsum</h3>
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
+            <div class="extendfieldinfo" id="first_field">
+                <div class="field_header" id="first_field_header">
+                    <h3>Lorem Ipsum</h3>
+                    <i class="far fa-plus-square"></i>
                 </div>
-              
-                
-            <div class="extendfieldinfo" id="juridisk">
-                <div class="field_header" id="juridisk_field_header">
-                    <button class="extendfield_button">
-                        <h3>Lorem Ipsum</h3>
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
+                <div class="field_text" id="first_field_text">
+                    <ul>
+                        <li>Lorem Ipsum</li>
+                        <li>Fastsettelse av utleiepris.</li>
+                        <li>Lorem Ipsum </li>
+                        <li>Lorem Ipsum</li>
+                    </ul>
                 </div>
-                <div class="field_text" id="juridisk_field_text">
+            </div>
+            <div class="extendfieldinfo" id="second">
+                <div class="field_header" id="second_field_header">
+                    <h3>Lorem Ipsum</h3>
+                    <i class="far fa-plus-square"></i>
+                </div>
+                <div class="field_text" id="second_field_text">
                     <ul>
                         <li>Lorem Ipsum</li>
                         <li>Lorem Ipsum</li>
@@ -85,15 +96,12 @@
                     </ul>
                 </div>
             </div>
-        
-            <div class="extendfieldinfo" id="economy">
-                <div class="field_header" id="economy_field_header">
-                    <button class="extendfield_button">
-                        <h3>Lorem Ipsum</h3>
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
+            <div class="extendfieldinfo" id="third">
+                <div class="field_header" id="third_field_header">
+                    <h3>Lorem Ipsum</h3>
+                    <i class="far fa-plus-square"></i>
                 </div>
-                <div class="field_text" id="economy_field_text">
+                <div class="field_text" id="third_field_text">
                     <ul>
                         <li>Lorem Ipsum</li>
                         <li>Lorem Ipsum</li>
@@ -102,14 +110,12 @@
                     </ul>
                 </div>
             </div>
-            <div class="extendfieldinfo" id="befaringafter_field">
-                <div class="field_header" id="befaringafter_field_header">
-                    <button class="extendfield_button">
-                        <h3>Lorem Ipsum</h3>
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
+            <div class="extendfieldinfo" id="fourth">
+                <div class="field_header" id="fourth_field_header">
+                    <h3>Lorem Ipsum</h3>
+                    <i class="far fa-plus-square"></i>
                 </div>
-                <div class="field_text" id="befaringafter_field_text">
+                <div class="field_text" id="fourth_field_text">
                     <ul>
                         <li>Lorem Ipsum</li>
                         <li>Lorem Ipsum</li>
@@ -118,16 +124,11 @@
                     </ul>
                 </div>
             </div>
-            <section id="end_Leietaker">
-                <button onclick="document.location='kontakt.html'" class="buttonPink">Kom i gang!</button>
-
-    <body class="kontakt">
-        <header></header>
-
-
+        </section>
+        <button onclick="document.location='kontakt.html'" class="buttonPink buttonBottom outro_leietaker">Kom i gang!</button>
         <footer></footer>
-
         <script src="modularity/header.js"></script>
         <script src="modularity/footer.js"></script>
+        <script src="scripts/extendfield.js"></script>
     </body>
 </html>

@@ -16,6 +16,15 @@ var click8 = document.getElementById("befaringafter_field_header");
 click8.addEventListener("click", extendField8);
 var click9 = document.getElementById("utflytting_field_header");
 click9.addEventListener("click",extendField9);
+var click10 = document.getElementById("first_field_header");
+click10.addEventListener("click", extendField1);
+var click11=document.getElementById("second_field_header");
+click11.addEventListener("click", extendField2);
+var click12=document.getElementById("third_field_header");
+click12.addEventListener("click",extendField3);
+var click13=document.getElementById("fourth_field_header");
+click13.addEventListener("click", extendField4);
+
 
 function extendField1(){
     var extend = document.getElementsByClassName("field_text");
