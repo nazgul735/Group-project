@@ -675,3 +675,10 @@ LEIETAKER
 #student button{
     float:right;
 }
+
+#intro_about{
+    margin-top:5rem;
+}
+.about p{
+    font-size: 20px;
+}
