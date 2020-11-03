@@ -57,6 +57,14 @@ h3{
     font-size:30px;
     line-height:37.5px;
 }
+h4{
+    font-family: 'Quicksand';
+    font-weight:400;
+    font-style:normal;
+    font-size:25px;
+    line-height: 30px;
+    margin:0.5rem;
+}
 /*----------------------------------
 HEADER
 ------------------------------------
@@ -597,27 +605,49 @@ section{
 /*----------------------------------
 LEIETAKER
 ------------------------------------*/
-                                                        
-.leietaker section {
-    margin: 2rem 10rem 2rem 10rem;
-    padding: 2rem;
+
+/*INTRO*/
+#intro_leietaker{
+    margin-top:5rem;
+}                                            
+
+/*EKSTRA INFORMASJON*/
+#extra_info{
+    display:flex;
 }
-#Dinefordeler {
-    height: 900px;
-}                                                        
-#Leieimg img {
-    max-width: 40%;
-}                                                        
-#Leieimg {
-    flex-basis: 45%;
-}                                                        
-#Process,#Clear {
-    float: left;
-    width: 50%;
-    margin: 4rem 0.5rem 1rem 0.5rem;
-}                                                        
-#takecare,#Rent {
-    float: right;
-    width: 50%;
-    margin: auto;
-}                          
+.box_extra_info{
+    background-color: #605770;
+    color:white;
+    padding:1.5rem 0 1.5rem 0;
+    margin:1rem;
+    flex:1;
+    text-align: center;
+    min-height:200px;
+}
+.box_extra_info h4{
+    border-bottom:2px solid white;
+}
+.box_extra_info p{
+    height:50%;
+    width:50%;
+    margin:auto;
+    margin-bottom:1rem;
+}
+.box_extra_info a{
+    color:white;
+    padding:0.5rem;
+    border:1px solid white;
+}
+/*DINE FORDELER*/
+#dine_fordeler{
+    min-height: 450px;
+}
+
+#process,#takecare{
+    float:left;
+    width:48%;
+}
+#clear,#rent{
+    float:left;
+    width:48%;
+}
