@@ -180,6 +180,7 @@ footer img{
     bottom: 35.1%;
     background: rgba(196, 196, 196, 0.3);
     padding:0.5rem;
+    height:5rem;
 }
 #newsletter_footer h4{
     margin:0.5rem;
@@ -351,15 +352,23 @@ HOMEPAGE
 CONTACT 
 ------------------------------------
 */
-
-#contactform {
-    float: right;
-    max-width: 500px;
-    margin-right: 128px;
+/*INTRO WITH CONTACTFORM*/
+#top_section_contact{
+    margin-top:5rem;
+    padding-top: 1rem;;
+    display:flex;
 }
-
+.col_contact{
+    flex:1;
+}
+.col_contact h1{
+    margin:0;
+}
 #contactform fieldset {
     border: none;
+}
+.col_contact label{
+    font-weight: bold;
 }
 
 #contactform input {
@@ -376,57 +385,100 @@ CONTACT
     background-color: #F5F3F3;
     border: none;
     width: 100%;
+    font-size:16px;
 }
-
+#contactform input[type=tel] {
+    padding: 4px 4px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #F5F3F3;
+    border: none;
+    width: 100%;
+    font-size:16px;
+}
 #contactform textarea {
-    height: 128px;
-    padding: 4px 4px;
-    margin: 8px 0;
+    height: 150px;
+    padding: 1rem;
+    margin: 10px 0;
     box-sizing: border-box;
     background-color: #F5F3F3;
     border: none;
     width: 100%;
+    font-family: 'Quicksand';
 }
-
-#fritekst paceholder {
-    vertical-align: top;
-}
-
 #contactform input[type=radio] {
-    color: rgb(179, 35, 35);
-    /*funker ikke*/
-}
-
-#contactform input[type=integer] {
-    padding: 4px 4px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    background-color: #F5F3F3;
-    border: none;
-    width: 100%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    outline: none;
 }
 
 #contactform input:invalid {
     border: 1px solid red;
 }
-
-#contactform input:valid {
+#contactform input:valid{
     border: 1px solid green;
 }
-/*
-button {
+.buttonsubmit{
+    float:right;
+    height:50px;
+    width: 200px;
+    font-size: 20px;
+    padding:0.5rem;
+    margin:auto;
+    display:block;
+    font-family: 'Quicksand';
+    transition: 0.3s;
+    opacity: 1;
     background-color: #9E7682;
-    color: white;
-    padding: 1rem 2rem;
-    float: right;
-    border: none;
+    border:none;
+    color:white;
+    cursor: pointer;
 }
-/*
-button:hover {
-    background-color: #605770;
-    color: white;
+.buttonsubmit:hover{color:#605770;}
+/*MAPS*/
+.maps_contact_iframe{
+    text-align:center;
+    padding:1rem;
+    border: 2px solid #605770;
+    border-radius: 5px;
+    width:60%;
+    margin:auto;
+    transition:0.8s ease-in;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
-
+.maps_contact_iframe:hover{
+    -webkit-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+	-moz-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+	box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+}
+/*BOTTOM*/
+#bottom_contact{
+    margin:0;
+    text-align:center;
+    background-color: rgb(132, 169, 192,0.6);
+}
+.outro_contact{
+    bottom:0;
+    position:relative;
+    padding-bottom:1.5rem;
+}
+.buttonBlue{
+    font-family: 'Quicksand';
+    color:black;
+    background-color: #84A9C0;
+    font-size:25px;
+    padding:32px;
+    line-height: 25px;
+    cursor: pointer;
+    width:40%;
+    transition: 0.1s;
+    border:none;
+}
+.buttonBlue:hover{
+    border:1px solid black;
+}
 /*----------------------------------
 about
 ------------------------------------*/
