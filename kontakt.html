@@ -13,73 +13,56 @@
 <body class="kontakt">
 
     <header></header>
-
-
-   
-    <form id="contactform" action="" method="post">
-
-        <fieldset>
-            <H1> Kontakt</H1>
-            <p>Legg igjen mailen eller telefonnummeret ditt, så tar vi kontakt med deg, helt uforpliktende!
-            </p>
-            <br>
-
-            <label for="E-mail">
-                E-post
-                <input type="text" id="email" name="email"  placeholder="E-post" required pattern="[^ @]*@[^ @]*">
-            </label>
-            <br>
-
-            <label for="phone">
-                Telefon
-                <input type="integer" placeholder="Telefon">
-            </label>
-            <br>
-
-
-            <input type="radio" id="utleier" name="rolle" required>
-            <label for="utleier">
-                    Interresert i å leie ut
-                
-            <input type="radio" id="leietager" name="rolle">
-            <label for="leietager">
-                    Interresert i å leie
+    <section id="top_section_contact">
+    <div class="col_1_contact col_img">
+        <img src="img/imagesforpages/kontakt_html.jpg" alt="Interior photo" id="imageKontakt">
+    </div>    
+    <div class="col_2_contact col_img">
+        <form id="contactform" action="" method="post">
+            <fieldset>
+                <h1> Kontakt</h1>
+                <p>Legg igjen mailen eller telefonnummeret ditt, så tar vi kontakt med deg, helt uforpliktende!</p>
+    
+                <label for="E-mail">
+                    E-post
+                    <input type="text" id="email" name="email"  placeholder="hei@studentmegleren.no" required pattern="[^ @]*@[^ @]*">
                 </label>
-            <input type="radio" id="annet" name="rolle">
-            <label for="annet">
-                    Annet
+                <br>
+    
+                <label for="phone">
+                    Telefon
+                    <input type="integer" placeholder="Telefon">
                 </label>
-            </label>
-            <br>
-
-
-            <textarea type="text" id="fritekst" name="fritekst" placeholder="Noe på hjertet? (Valgfritt)">
-            </textarea>
-
-            <br>
-
-            <button type="send" name="send">Send</button>
-        </fieldset>
-    </form>
-
-    <img src="img/imagesforpages/kontakt_html.jpg" alt="Interior photo" width="400" height="500" id="imageKontakt">
-
-
-    <!--
-    <section id="location">
-        <h1>Her finner du oss</h1>
+                <br>
+    
+                <input type="radio" id="utleier" name="rolle" required>
+                <label for="utleier">Interessert i å leie ut</label>
+                    
+                <input type="radio" id="leietager" name="rolle">
+                <label for="leietager">Interessert i å leie</label>
+    
+                <input type="radio" id="annet" name="rolle">
+                <label for="annet">Annet</label>
+                <br>
+    
+                <textarea type="text" id="fritekst" name="fritekst" placeholder="Noe på hjertet? (Valgfritt)"></textarea>
+                <br>
+    
+                <button type="send" name="send">Send</button>
+            </fieldset>
+        </form>
+    </div>
     </section>
-    <section id="Adress">
-        <h1>Kontaktinfo</h1>
-        <h3>STUDENTMEGLEREN AS</h3>
-        <ul>
-            <li>Brattørveita 157010, Trondheim</li>
-            <li>Org.nr:12345679</li>
-            <li>Tlf:466 29 490 </li>
-            <li>E-post:hei@studentmegleren.no</li>
-        </ul>
+    <section id="maps_iframe_contact">
+        <h2>Her finner du oss</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1784.3406922914885!2d10.399805516537944!3d63.43431148327827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x466d319c1f1cbe7f%3A0x57591d68f11a1381!2sBratt%C3%B8rveita%2015%2C%207010%20Trondheim!5e0!3m2!1sno!2sno!4v1604493941964!5m2!1sno!2sno" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </section>
--->
+    <section id="bottom_contact">
+        <div class="outro_contact">
+            <h2>Studentmegleren tilbyr komplette tjenester innen utleie og boligforvaltning i Trondheim.</h2>
+            <button onclick="document.location='about.html'" class="buttonBottom buttonBlue">Mer om Studentmegleren</button>
+        </div>
+    </section>
     <footer></footer>
     <script src="modularity/header.js"></script>
     <script src="modularity/footer.js"></script>
