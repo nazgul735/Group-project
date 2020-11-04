@@ -360,9 +360,15 @@ CONTACT
 }
 .col_contact{
     flex:1;
+    vertical-align: middle;
 }
 .col_contact h1{
     margin:0;
+}
+.col_2_contact{
+   margin-left:2rem;
+   margin-top:auto;
+   margin-bottom: auto;
 }
 #contactform fieldset {
     border: none;
@@ -420,7 +426,7 @@ CONTACT
     border: 1px solid green;
 }
 .buttonsubmit{
-    float:right;
+    float: left;
     height:50px;
     width: 200px;
     font-size: 20px;
