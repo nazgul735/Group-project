@@ -17,7 +17,7 @@ function modfooter(){
                 <h4>Meld deg på vårt nyhetsbrev:</h4>
                 <form id="newsletter_form">
                     <input id="email_newsletter" type="email" placeholder="Din e-post" required="">
-                    <input class="email_newsletter_submit" type="submit" value="SEND">
+                    <input id="email_newsletter_submit" type="submit" value="SEND">
                 </form>
             </div>
             <div class="widget_footer" id="some_footer">

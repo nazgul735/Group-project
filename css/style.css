@@ -208,7 +208,7 @@ footer input[type=email]{
     height:25px;
     font-size: 15px;
 }
-.email_newsletter_submit{
+#email_newsletter_submit{
     background-color: #9E7682;
     border:none;
     font-family: "Quicksand";
@@ -220,7 +220,7 @@ footer input[type=email]{
     margin-left:1rem;
     color:white;
 }
-.email_newsletter_submit:hover{
+#email_newsletter_submit:hover{
     background-color: #4D4861;
 }
 
