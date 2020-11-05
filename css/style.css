@@ -152,44 +152,27 @@ footer{
     clear: both;
     overflow: hidden;
 }
+/*LOGO*/
 #logo_footer_img{
     display:block;
     float:left;
     width:15%;
     margin-top:2rem;
 }
+/*CONTACTINFO*/
 #contactinfo_footer{
     float:left;
     width: 15%;
 }
 #contactinfo_footer h4{text-decoration: underline;}
+
+/*NEWSLETTER*/
 #newsletter_footer{
     float:right;
     padding:0.5rem;
     width:30%;
-    margin:1rem 0 0.5rem 1rem;
+    margin:1rem 6rem 0.5rem 1rem;
     background: rgba(196, 196, 196, 0.3);
-    
-}
-#newsletter_footer h4{
-    margin:0.5rem;
-}
-#newsletter_form{
-    margin:0.5rem;
-}
-
-#some_footer{
-    position: absolute;
-    right:4%;
-    bottom:7%;
-}
-#some_footer a{
-    margin-left:2px;
-    margin-right:2px;
-    color:#4D4861;
-}
-#some_footer>a:hover{
-    color:#9E7682;
 }
 footer input[type=email]{
     width:66%;
@@ -209,6 +192,29 @@ footer input[type=email]{
     margin-left:1rem;
     color:white;
 }
+#newsletter_footer h4{margin:0.5rem;}
+#newsletter_form{margin:0.5rem;}
+#email_newsletter_submit:hover{
+    background-color: #4D4861;
+}
+/*SOME*/
+#some_footer{
+    float:right;
+    position: relative;
+    top:20%;
+    left:450px;
+    
+}
+#some_footer a{
+    margin-left:2px;
+    margin-right:2px;
+    color:#4D4861;
+}
+#some_footer>a:hover{
+    color:#9E7682;
+}
+
+
 #email_newsletter_submit:hover{
     background-color: #4D4861;
 }
