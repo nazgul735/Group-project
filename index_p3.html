@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Group 15</title>
+    <link rel = "icon" href="img/logo-studentmegleren-favicon.png" type='image/x-icon'>
+    <link rel = "stylesheet" type = "text/css" href = "css/style.css" >
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f4c3279381.js" crossorigin="anonymous"></script>
+  </head>
+    <body>
+      <header>
+        <div class="intro">
+          <img src="img/logo-studentmegleren-SVART.png" alt="Studentmegleren">
+          <div class="menu" id="menu1">
+            <a href="#docdetail">Document Details</a>
+            <a href="#admindetails">Administrative Details</a>
+            <a href="#goalsaudience">The changes we have made</a>
+          </div>
+          <div class="menu" id="menu2">
+            <a href="#plan">Updated Organizational Scheme</a>
+          </div>
+          <h1> P3 Design Changes</h1>
+        </div>
+      </header>
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up" style="font-size:30px;"></i></button>
+      <script>
+        var mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+  
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
+      <section class="paragraphbox" id="docdetail">
+        <h2> 1. Document Details</h2>
+        <p>P2 Project Requirements</p>
+        <p>Amir Hossein Ghaedi, Ida Maria Corsepius Melen, Sebastian Veum and Francin Vincent</p>
+        <p>IT 2805 October 2, 2020</p>
+      </section>
+      <section class="paragraphbox" id="admindetails">
+        <h2>2. Administrative Details</h2>
+        <p>Client Name: Studentmegleren</p>
+        <p>Website Name: Studentmegleren</p>
+        <p>Contact person: Francin Vincent</p>
+      </section>
+      <section class="paragraphbox" id="goalsaudience">
+        <h2>The changes we have made</h2>
+        <p> We had initially planned to have 5 pages, and changed some of the names/purpose/styling of them. There were some stylistic and structural changes, and these changes are summarized below. </p>
+          <p>
+           <strong>Changes to leietaker.html</strong> 
+           in this section we decide to change the color of the Icons(users check Icon) from Black to 9E7682. Also we have changed the image of the page.also in order to avoid from making the users confused, WE remove the "KOM I GANG" buttom on the top of the page and only let one button on the buttom of the page remians.
+         </p>
+         <p>
+           <strong>Changes to utleier.html</strong>
+          for the utleier in order th give more variation to the users we changed the image.
+         </p>
+         <p>
+           <strong>Changes to kontakt.html</strong> 
+           For artistic purposes, we decided to make Website simpler for the user. For visual reasons, we decided that the adress will be the only set on the footer of the wepbage and deicded to put more interactive image compared to the pervious one.
+        </p>
+           <strong>Changes Footer and header html to Footer and header.js</strong> 
+           as we wanted to Make a footer and header that are modular for all pages. we found out making the java script was more possible to achive this goal so we decided to change the html file to js.
+         </p>
+          <p>
+           <strong>Changes the name of the mailsubscriber.s to Submit.js</strong>As we needed only one file for the submiting function(after submitting it give a message to the user) we decided to change the name.
+         </p>
+         <p>
+          <strong>Additional Javascript file scrolltotop.js</strong> In the process of designing the page we find out we need to make the webpage user friendly as possible. So we decided to added function that by pressing a button, the user will be able to scroll to the top of the page.
+        </p>
+      </section>
+      <section class="paragraphbox" id="plan">
+        <h2>Updated Organizational Scheme</h2>
+        <p>We will be following the following organizational scheme to create and store our files and the work division table to keep track on who creates what and when.</p>
+        <h4>List of files and folders: </h4>
+        <ul>
+          <li>homepage.html</li>
+          <li>about.html</li>
+          <li>leietaker.html</li>
+          <li>utleier.html</li>
+          <li>kontakt.html</li>
+          <li>img/
+            <ul>
+              <li>imagesforpages/</li>
+               <ul>
+                 <li>about_html.jpg</li>
+                 <li>kontakt_html.jpg</li>
+                 <li>leietaker_html.jpg</li>
+                 <li>utleier_html.jpg</li>
+               </ul>
+				      <li>imagesslider/</li>
+                <ul>
+                 <li>img1.jpg</li>
+                 <li>img2.jpg</li>
+                 <li>img3.jpg</li>
+               </ul>
+				      <li>logo/</li>
+                <ul>
+                 <li>logo-studentmegleren-favicon-svart.png</li>
+                 <li>logo-studentmegleren-utenbak-hvit.png</li>
+                 <li>logo-studentmegleren-utenbak-svart.png</li>
+               </ul>
+				      <li>chevron-right-solid.svg</li>
+				      <li>img2.jpg</li>
+            </ul>
+          </li>
+          <li>modularity/
+            <ul>
+              <li>footer.js</li>
+              <li>header.js</li>
+            </ul>
+          </li>
+          <li>scripts/
+            <ul>
+              <li>extendField1.js</li>
+				      <li>extendfield.js</li>
+				      <li>contactform.js</li>
+				      <li>imagesslider.js</li>
+				      <li>scrolltotop.js</li>
+              <li>submit.js</li>
+            </ul>
+          </li>
+          <li>css/
+            <ul><li>style.css</li></ul>
+          </li>
+        </ul>
+        <h3>Work divison and Deadlines:</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Filename</th>
+              <th>Description</th>
+              <th>In charge</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>homepage.html</td>
+					    <td>The homepage</td>
+					    <td>Ida</td>
+            </tr>
+            <tr>
+              <td>about.html</td>
+              <td>About Studentmegleren</td>
+              <td>Sebastian</td>
+            </tr>
+            <tr>
+              <td>leietaker.html</td>
+              <td>Page for the people looking for a place to live</td>
+              <td>Amir</td>
+            </tr>
+            <tr>
+              <td>utleier.html</td>
+              <td>Page for people looking to rent out their apartment/house</td>
+              <td>Francin</td>
+            </tr>
+            <tr>
+              <td>kontakt.html</td>
+              <td>Contact page with contact form and contact information</td>
+              <td>Amirw</td>
+            </tr>
+            <tr>
+              <td>imagesslider.js</td>
+              <td>Image slideshow for homepage (will show different photos)</td>
+              <td>Sebastian</td>
+            </tr>
+            <tr>
+              <td>contactform.js</td>
+              <td>Contact form for contact page (kontakt.html)</td>
+              <td>Ida</td>
+            </tr>
+            <tr>
+              <td>submit.js</td>
+              <td>Field prompting user to subscribe to newsletter</td>
+              <td>Amir</td>
+            </tr>
+            <tr>
+              <td>extendfield.js</td>
+              <td>Function for making the fields extend. </td>
+              <td>Francin</td>
+            </tr>
+            <tr>
+              <td>header.js</td>
+              <td>Make the header modular for all pages.</td>
+              <td>Francin</td>
+            </tr>
+            <tr>
+              <td>footer.js</td>
+              <td>Make a footer that are modular for all pages.</td>
+              <td>Francin</td>
+            </tr>
+            <tr>
+              <td>buttons.html</td>
+              <td>Make buttons that are the same for all pages.</td>
+              <td>Francin</td>
+            </tr>
+            <tr>
+              <td>style.css</td>
+              <td>Styling the web site</td>
+              <td>All</td>
+            </tr>
+            <tr>
+              <td>scrolltotop.js</td>
+              <td>Scrolling to the top of the page</td>
+              <td>Francin</td>
+            </tr>
+            <tr>
+              <td>Final controls/test</td>
+              <td>Double checking each file for errors, checking the javascript and css</td>
+              <td>All</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    <footer>
+        <div class="next_dest" id="next_dest">
+          <ul>
+            <li><a href="Documents/P1_Project_Requirements_v2.pdf" target="_blank">P1 Requirements 23.09.20 23:59</a></li>
+            <li><a href="Documents/P2_Project_Design_v2.pdf" target="_blank">P2 Design 04.10.20 23:59</a></li>
+            <li><a href="Documents/P3_Project_Coding_v2.pdf" target="_blank">P3 Code 05.11.20 23:59 </a></li>
+            <li><a href="Documents/P4_Project_Testing_v2.pdf" target="_blank">P4 Test 05.11.20 23:59</a></li>
+          </ul>
+        </div>
+        <div class="member_list" id="member_list">
+          <ul>
+            <li><a href="https://www.facebook.com/profile.php?id=100009606035158" target="_blank">Amir Ghaedi</a></li>
+            <li><a href="https://www.facebook.com/Veiium" target="_blank">Sebastian Veum</a></li>
+            <li><a href="https://www.facebook.com/idamaria.c.melen" target="_blank">Ida Maria Corsepius Melen</a></li>
+            <li><a href="https://www.facebook.com/francinvincent" target="_blank">Francin Vincent</a></li>
+          </ul>
+        </div>
+        <img src="img/logo-studentmegleren-utenbak-svart.png" alt="logo">
+         <p>
+          &#169;2020 Studentmegleren All Rights Reserved
+         </p>     
+      </footer>
+    </body>
+    
+        
+ 
+</html>
