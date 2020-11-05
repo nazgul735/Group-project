@@ -54,7 +54,7 @@ section{
 
 /*STEPS MODULAR (UTLEIE AND LEIETAKER)*/
 
-.field_text{display:none;}
+.field_text{display: none;}
 
 .field_header{
     color:white;
@@ -72,7 +72,6 @@ section{
     float:right;
     width:10%;
     font-size:30px;
-    display:block;
     margin:1rem;
     text-align: right;
 }
@@ -505,7 +504,6 @@ UTLEIER
 }
 
 /*PRISER*/
-
 .prices_container{display:flex;}
 .col{
     flex:1;

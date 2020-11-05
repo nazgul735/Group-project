@@ -6,9 +6,9 @@ for (let i=0; i<extend.length; i++){
         for (let i=0; i<clickextend.length; i++){
             if (clickextend[0].style.display=== "none"){
                 clickextend[0].style.display = "block";
-            }else if (clickextend[0].style.display === "block"){
+            } else {
                 clickextend[0].style.display = "none";
-            }
+            } 
         }
     });
 }
@@ -18,7 +18,7 @@ for (let i=0; i<extend.length; i++){
         for (let i=0; i<clickextend.length; i++){
             if (clickextend[1].style.display=== "none"){
                 clickextend[1].style.display = "block";
-            }else if (clickextend[1].style.display === "block"){
+            }else {
                 clickextend[1].style.display = "none";
             }
         }
@@ -29,7 +29,7 @@ for (let i=0; i<extend.length; i++){
         for (let i=0; i<clickextend.length; i++){
             if (clickextend[2].style.display=== "none"){
                 clickextend[2].style.display = "block";
-            }else if (clickextend[2].style.display ==="block"){
+            }else {
                 clickextend[2].style.display = "none";
             }
         }
@@ -40,7 +40,7 @@ for (let i=0; i<extend.length; i++){
         for (let i=0; i<clickextend.length; i++){
             if (clickextend[3].style.display=== "none"){
                 clickextend[3].style.display = "block";
-            }else if (clickextend[3].style.display ==="block"){
+            }else {
                 clickextend[3].style.display = "none";
             }
         }
@@ -51,7 +51,7 @@ for (let i=0; i<extend.length; i++){
         for (let i=0; i<clickextend.length; i++){
             if (clickextend[4].style.display=== "none"){
                 clickextend[4].style.display = "block";
-            }else if (clickextend[4].style.display ==="block"){
+            }else {
                 clickextend[4].style.display = "none";
             }
         }
@@ -62,7 +62,7 @@ for (let i=0; i<extend.length; i++){
         for (let i=0; i<clickextend.length; i++){
             if (clickextend[5].style.display=== "none"){
                 clickextend[5].style.display = "block";
-            }else if (clickextend[5].style.display ==="block"){
+            }else {
                 clickextend[5].style.display = "none";
             }
         }
@@ -73,7 +73,7 @@ for (let i=0; i<extend.length; i++){
         for (let i=0; i<clickextend.length; i++){
             if (clickextend[6].style.display=== "none"){
                 clickextend[6].style.display = "block";
-            }else if (clickextend[6].style.display ==="block"){
+            }else {
                 clickextend[6].style.display = "none";
             }
         }
@@ -84,7 +84,7 @@ for (let i=0; i<extend.length; i++){
         for (let i=0; i<clickextend.length; i++){
             if (clickextend[7].style.display=== "none"){
                 clickextend[7].style.display = "block";
-            }else if (clickextend[7].style.display ==="block"){
+            }else {
                 clickextend[7].style.display = "none";
             }
         }
@@ -95,7 +95,7 @@ for (let i=0; i<extend.length; i++){
         for (let i=0; i<clickextend.length; i++){
             if (clickextend[8].style.display=== "none"){
                 clickextend[8].style.display = "block";
-            }else if (clickextend[8].style.display ==="block"){
+            }else {
                 clickextend[8].style.display = "none";
             }
         }
