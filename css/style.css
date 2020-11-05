@@ -293,11 +293,10 @@ HOMEPAGE
     display: none;
 }
                                                         
-.slideshow_homepage_container {
-    position: relative;
+.slideshow_homepage_container img{
     max-width: 100%;
-    max-height: 100%;                                                        
-    display:block;
+    max-height: 100%;
+    display: block;
 }                                                                                                                
                                                         
 .fade {
