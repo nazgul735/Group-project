@@ -22,7 +22,7 @@ for (let i=0; i<extend.length; i++){
                 clickextend[1].style.display = "none";
             }
         }
-    })
+    });
 }
 for (let i=0; i<extend.length; i++){
     extend[2].addEventListener("click", function() {
@@ -33,7 +33,7 @@ for (let i=0; i<extend.length; i++){
                 clickextend[2].style.display = "none";
             }
         }
-    })
+    });
 }
 for (let i=0; i<extend.length; i++){
     extend[3].addEventListener("click", function() {
@@ -77,7 +77,7 @@ for (let i=0; i<extend.length; i++){
                 clickextend[6].style.display = "none";
             }
         }
-    })
+    });
 }
 for (let i=0; i<extend.length; i++){
     extend[7].addEventListener("click", function() {

@@ -15,7 +15,7 @@
             <div class="container_intro intro_leietaker_box">
                 <h1>Vi gir deg hjerterom og husrom</h1>
                 <div class="container_intro_img_button">
-                    <img src="img/imagesforpages/leietaker_html.jpg" width="1000">
+                    <img src="img/imagesforpages/leietaker_html.jpg" >
                     <button onclick="document.location='kontakt.html'" class="buttonPink buttonIntro intro_utleier_button">Kom i gang!</button>
                 </div>
             </div>
@@ -33,32 +33,36 @@
         </section>
         <section id="dine_fordeler">
             <h2 id=#titlefordeler>Dine Fordeler</h2>
-            <div class="box_hover fordeler_leietaker box_fordeler" id="process">
-                <i class="fas fa-user-check fa-3x" style="color:#9e7682"></i>
-                <div class="inside_container inside_container_process">
-                    <h4>Vi tar oss av hele prosessen</h4>
-                    <p>Du forholder deg til oss i Leiebolig.</p>
+            <div class="flex_container_one">
+                <div class="box_hover fordeler_leietaker box_fordeler flex_cont_leietaker_one" id="process">
+                    <i class="fas fa-user-check fa-3x" style="color:#9e7682"></i>
+                    <div class="inside_container inside_container_process">
+                        <h4>Vi tar oss av hele prosessen</h4>
+                        <p>Du forholder deg til oss i Leiebolig.</p>
+                    </div>
+                </div>
+                <div class="box_hover fordeler_leietaker box_fordeler flex_cont_leietaker_one" id="takecare">
+                    <i class="fas fa-user-check fa-3x" style="color:#9e7682"></i>
+                    <div class="inside_container inside_container_takecare">
+                        <h4>Vi tar vare på dine rettigheter</h4>
+                        <p>Du får en godt utarbeidet leievtale.</p>
+                    </div>
                 </div>
             </div>
-            <div class="box_hover fordeler_leietaker box_fordeler" id="takecare">
-                <i class="fas fa-user-check fa-3x" style="color:#9e7682"></i>
-                <div class="inside_container inside_container_takecare">
-                    <h4>Vi tar vare på dine rettigheter</h4>
-                    <p>Du får en godt utarbeidet leievtale.</p>
+            <div class="flex_container_two">
+                <div class="box_hover fordeler_leietaker box_fordeler flex_cont_leietaker_two" id="clear">
+                    <i class="fas fa-user-check fa-3x" style="color:#9e7682"></i>
+                    <div class="inside_container inside_container_clear">
+                        <h4>Ryddig og oversiktig</h4>
+                        <p>Vi ivaretar leieforholdet fira A til Å.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="box_hover fordeler_leietaker box_fordeler" id="clear">
-                <i class="fas fa-user-check fa-3x" style="color:#9e7682"></i>
-                <div class="inside_container inside_container_clear">
-                    <h4>Ryddig og oversiktig</h4>
-                    <p>Vi ivaretar leieforholdet fira A til Å.</p>
-                </div>
-            </div>
-            <div class="box_hover fordeler_leietaker box_fordeler" id="rent">
-                <i class="fas fa-user-check fa-3x" style="color:#9e7682"></i>
-                <div class="inside_container inside_container_rent">
-                    <h4>Alle våre boliger er godkjente for utleie</h4>
-                    <p>Boligene tilfredsstiller alle formelle krav for utleieboliger.</p>
+                <div class="box_hover fordeler_leietaker box_fordeler flex_cont_leietaker_two" id="rent">
+                    <i class="fas fa-user-check fa-3x" style="color:#9e7682"></i>
+                    <div class="inside_container inside_container_rent">
+                        <h4>Alle våre boliger er godkjente for utleie</h4>
+                        <p>Boligene tilfredsstiller alle formelle krav for utleieboliger.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -72,11 +76,11 @@
         <section id="steps_leietaker">
             <h2 id="titlesteps">Slik fungerer det</h2>
             <div class="extendfieldinfo" id="first_field">
-                <div class="field_header" id="first_field_header" onclick="extendField()">
+                <div class="field_header" id="first_field_header">
                     <h3>Lorem Ipsum</h3>
                     <i class="far fa-plus-square"></i>
                 </div>
-                <div class="field_text" id="first_field_text">
+                <div class="field_text field_leietaker" id="first_field_text">
                     <ul>
                         <li>Lorem Ipsum</li>
                         <li>Fastsettelse av utleiepris.</li>
@@ -86,11 +90,11 @@
                 </div>
             </div>
             <div class="extendfieldinfo" id="second">
-                <div class="field_header" id="second_field_header" onclick="extendField()">
+                <div class="field_header" id="second_field_header">
                     <h3>Lorem Ipsum</h3>
                     <i class="far fa-plus-square"></i>
                 </div>
-                <div class="field_text" id="second_field_text">
+                <div class="field_text field_leietaker" id="second_field_text">
                     <ul>
                         <li>Lorem Ipsum</li>
                         <li>Lorem Ipsum</li>
@@ -104,7 +108,7 @@
                     <h3>Lorem Ipsum</h3>
                     <i class="far fa-plus-square"></i>
                 </div>
-                <div class="field_text" id="third_field_text">
+                <div class="field_text field_leietaker" id="third_field_text">
                     <ul>
                         <li>Lorem Ipsum</li>
                         <li>Lorem Ipsum</li>
@@ -118,7 +122,7 @@
                     <h3>Lorem Ipsum</h3>
                     <i class="far fa-plus-square"></i>
                 </div>
-                <div class="field_text" id="fourth_field_text">
+                <div class="field_text field_leietaker" id="fourth_field_text">
                     <ul>
                         <li>Lorem Ipsum</li>
                         <li>Lorem Ipsum</li>
@@ -130,7 +134,7 @@
         </section>
         <button onclick="document.location='kontakt.html'" class="buttonPink buttonBottom outro_leietaker">Kom i gang!</button>
         <footer></footer>
-        <script src="scripts/extendField2.js"></script>
+        <script src="scripts/extendField.js"></script>
         <script src="modularity/header.js"></script>
         <script src="modularity/footer.js"></script>
         <script src="scripts/scrolltotop.js"></script>

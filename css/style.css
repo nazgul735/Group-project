@@ -34,8 +34,18 @@ section{
 .container_intro img{
     width:50%;
     float: right;
+    display: block;
 }
-
+@media only screen and (max-width:1055px){
+    .container_intro h1{
+        font-size:50px;
+    }
+}
+@media only screen and (max-width:905px){
+    .container_intro h1{
+        font-size:36px;
+    }
+}
 /*FORDELER MODULAR (UTLEIE AND LEIETAKER) */
 .box_fordeler{
     text-align: center;
@@ -74,6 +84,12 @@ section{
     font-size:30px;
     margin:1rem;
     text-align: right;
+}
+/*RESPONSIVE*/
+@media only screen and (max-width:920px){
+    .field_header h3{
+        font-size: 20px;
+    }
 }
 
 /* LINKS(A) STYLING*/
@@ -171,6 +187,10 @@ header {
 .utleier_dropdown:hover .dropdown_content_utleier_box{display:block;}
 .leietaker_dropdown:hover .dropdown_content_leietaker_box{display: block;}
 
+/*RESPONSIVE*/
+@media only screen and (max-width:895px){
+    .topnav{font-size:22px;}
+}
 /*----------------------------------
 FOOTER
 ------------------------------------
@@ -253,6 +273,20 @@ footer input[type=email]{width:66%;}
 
 #email_newsletter_submit:hover{background-color: #4D4861;}
 
+/*RESPONSIVE*/
+@media only screen and (max-width:1275px){
+    #contactinfo_footer i{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:990px){
+    #newsletter_footer{
+        display:none;
+    }
+    #contactinfo_footer{
+        width:30%;
+    }
+}
 /*----------------------------------
 BUTTONS
 ------------------------------------
@@ -494,15 +528,19 @@ UTLEIER
 ------------------------------------*/
 
 /*FORDELER*/
-#trygghet, #best, #timemoney{
-    float:left;
-    width:30%;
+#fordeler{min-height:550px;}
+.flexbox_one{
+    display:flex;
 }
-#knowledge, #responsibility, #satisfied{
-    float:left;
-    width:30%; 
+.flex_cont_utleier_one{
+    flex:1;
+    margin-right: 1rem;
 }
-
+.flexbox_two{display:flex;}
+.flex_cont_utleier_two{
+    flex:1;
+    margin-right:1rem;
+}
 /*PRISER*/
 .prices_container{display:flex;}
 .col{
@@ -524,6 +562,11 @@ UTLEIER
     border-bottom:2px solid #9E7682;
     padding:2rem;
     margin:0;
+}
+
+/*RESPONSIVE*/
+@media only screen and (max-width:1394px) {
+    #fordeler{min-height:600px;}
 }
 
 /*----------------------------------
@@ -561,17 +604,17 @@ LEIETAKER
 /*DINE FORDELER*/
 #dine_fordeler{min-height: 550px;}
 
-#process,#takecare{
-    float:left;
-    width:48%;
+.flex_container_one{display:flex;}
+.flex_cont_leietaker_one{
+    flex:1;
+    margin-right: 0,5rem;
 }
-#clear,#rent{
-    float:left;
-    width:48%;
+.flex_container_two{display:flex;}
+.flex_cont_leietaker_two{
+    flex:1;
+    margin-right:0.5rem;
 }
-
 /*ER DU STUDENT?*/
-
 #student{
     min-height: 125px;
     border:1px solid #605770;
@@ -594,6 +637,9 @@ LEIETAKER
 }
 #student button{
     float:right;
+}
+@media only screen and (max-width:1155px){
+    #student{min-height: 200px;}
 }
 
 /*----------------------------------
