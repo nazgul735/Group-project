@@ -1,3 +1,10 @@
+/*FILE NAME:imagesslider.js
+WRITTEN BY: SEBASTIAN 
+WHEN: NOVEMBER 2020
+PURPOSE: Using javascript to display slideshow on homepage.
+*/
+
+
 const body = document.getElementsByClassName("homepage");
 body[0].addEventListener("click", showSlides);
 

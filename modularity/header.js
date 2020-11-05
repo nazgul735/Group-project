@@ -1,3 +1,9 @@
+/*FILE NAME:header.js
+WRITTEN BY: FRANCIN 
+WHEN: NOVEMBER 2020
+PURPOSE: Using javascript to push header to all pages.
+*/
+
 var header = document.querySelector("header");
 var head = document.querySelector("head");
 

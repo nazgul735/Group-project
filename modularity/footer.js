@@ -1,3 +1,10 @@
+/*FILE NAME:footer.js
+WRITTEN BY: FRANCIN 
+WHEN: NOVEMBER 2020
+PURPOSE: Using javascript to push footer to all pages.
+*/
+
+
 var footer=document.querySelector("footer");
 var head=document.querySelector("head");
 

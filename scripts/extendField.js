@@ -1,3 +1,10 @@
+/*FILE NAME:extendField.js
+WRITTEN BY: FRANCIN 
+WHEN: NOVEMBER 2020
+PURPOSE: This is a javascript file that contains function to extend and display fields on click. Implemented in utleier.html and 
+leietaker.html
+*/
+
 const extend = document.getElementsByClassName("field_header");
 const clickextend = document.getElementsByClassName("field_text");
 

@@ -1,3 +1,9 @@
+/*FILE NAME:submit.js
+WRITTEN BY: IDA
+WHEN: NOVEMBER 2020
+PURPOSE: Function that will give the user a fake alert if the newsletter submit or contactform submit is clicked.
+*/
+
 const submitnews = document.getElementById("email_newsletter_submit");
 const submitcontact = document.getElementById("submit_contact");
 
