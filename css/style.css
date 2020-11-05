@@ -8,8 +8,6 @@ body {
     padding: 0;
     height: 100%;
     font-family: 'Quicksand';
-    font-style: normal;
-    font-weight: normal;
 }
 
 a:link {
@@ -150,37 +148,28 @@ footer{
     left:0;
     bottom:0;
     color:black;
-    height:170px;
+    height:175px;
     clear: both;
+    overflow: hidden;
 }
-footer img{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+#logo_footer_img{
+    display:block;
+    float:left;
+    width:15%;
+    margin-top:2rem;
 }
 #contactinfo_footer{
-    position: absolute;
-    top: -6%;
-    left: 17%;
-    line-height: 2;
+    float:left;
+    width: 15%;
 }
-#contactinfo_footer h4{
-    font-size: 1.33333em;
-    margin-bottom: 0.5rem;
-    font-weight: 900;
-    text-decoration: underline;
-}
+#contactinfo_footer h4{text-decoration: underline;}
 #newsletter_footer{
-    position: absolute;
-    left: 70.49%;
-    right: 3.54%;
-    top: 12.98%;
-    bottom: 35.1%;
-    background: rgba(196, 196, 196, 0.3);
+    float:right;
     padding:0.5rem;
-    height:5rem;
+    width:30%;
+    margin:1rem 0 0.5rem 1rem;
+    background: rgba(196, 196, 196, 0.3);
+    
 }
 #newsletter_footer h4{
     margin:0.5rem;

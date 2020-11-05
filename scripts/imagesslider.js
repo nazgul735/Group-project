@@ -1,3 +1,6 @@
+const body = document.getElementsByClassName("homepage");
+body[0].addEventListener("click", showSlides);
+
 var slideIndex = 0;
 showSlides();
 
