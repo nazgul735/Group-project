@@ -489,10 +489,9 @@ UTLEIER
 }
 /*PRISER*/
 
-.col_container{display:flex;}
+.prices_container{display:flex;}
 .col{
     flex:1;
-    transition: 0.8s ease-in;
 }
 #col_1_utleie{
     margin-right:5rem;
@@ -511,11 +510,6 @@ UTLEIER
     border-bottom:2px solid #9E7682;
     padding:2rem;
     margin:0;
-}
-.col:hover{
-    -webkit-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
-	-moz-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
-	box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
 }
 
 /*----------------------------------
@@ -683,11 +677,8 @@ SECTION_INTRO
     float: right;
 }
 .box_hover{
-    text-align: center;
     padding:0.5rem;
-    border:1px solid transparent;
     transition: 0.8s ease-in;
-    border-radius: 10px 0px 10px 0px;
 }
 .box_hover:hover{
     -webkit-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
@@ -695,8 +686,10 @@ SECTION_INTRO
 	box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
 }
 
-
-
-
+.box_fordeler{
+    text-align: center;
+    border-radius: 10px 0px 10px 0px;
+    border:1px solid transparent;
+}
 
 
