@@ -11,10 +11,73 @@ body {
     font-family: 'Quicksand';
 }
 
-/*MODULAR STYLING*/
-section{margin:0 10rem 0 10rem;}
+/*--
+MODULAR STYLING
+--*/
 
+section{
+    margin:5rem 10rem 0 10rem;
+    min-height: 100%;
+}
 
+/*INTRO MODULAR*/
+.container_intro{
+    display:inline-block;
+    position: relative;
+}
+.container_intro h1{
+    float:left;
+    width:30%;
+    position: relative;
+    vertical-align: center;
+}
+.container_intro img{
+    width:50%;
+    float: right;
+}
+
+/*FORDELER MODULAR (UTLEIE AND LEIETAKER) */
+.box_fordeler{
+    text-align: center;
+    border-radius: 10px 0px 10px 0px;
+    border:1px solid transparent;
+    padding:0.5rem;
+}
+
+/*HOVER MODULAR */
+.box_hover{transition: 0.8s ease-in;}
+.box_hover:hover{
+    -webkit-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+	-moz-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+	box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
+}
+
+/*STEPS MODULAR (UTLEIE AND LEIETAKER)*/
+
+.field_text{display:none;}
+
+.field_header{
+    color:white;
+    background-color: #9E7682;
+    height:4rem;
+    margin-bottom:0.5rem;
+}
+.field_header h3{
+    margin:1rem;
+    float:left;
+    width:50%;
+    display: block;
+}
+.field_header .far{
+    float:right;
+    width:10%;
+    font-size:30px;
+    display:block;
+    margin:1rem;
+    text-align: right;
+}
+
+/* LINKS(A) STYLING*/
 a:link {
     text-decoration: none;
     color:black;
@@ -26,13 +89,8 @@ a:visited {
     color:black;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
-a:active {
-    text-decoration: underline;
-}
+a:hover {text-decoration: underline;}
+a:active {text-decoration: underline;}
 
 
 
@@ -64,7 +122,7 @@ header {
     float: right;
     font-size: 27px;
     line-height: 34px;
-    display: inline-block;
+    display: block;
     text-align: right;
     margin:50px 4rem 0;
     width: 60%;
@@ -76,6 +134,7 @@ header {
     position:relative;
     display:inline-block;
 }
+
 .dropdown_content_utleier_box,.dropdown_content_leietaker_box{display: none;}
 
 .dropdown_triangle{
@@ -108,6 +167,7 @@ header {
     display:block;
     text-align: left;
 }
+
 .dropdown_content a:hover{text-decoration: underline;}
 .utleier_dropdown:hover .dropdown_content_utleier_box{display:block;}
 .leietaker_dropdown:hover .dropdown_content_leietaker_box{display: block;}
@@ -116,6 +176,7 @@ header {
 FOOTER
 ------------------------------------
 */
+
 footer{
     position: relative;
     background-color:#84A9C0 ;
@@ -140,16 +201,13 @@ footer{
     float:left;
     width: 15%;
 }
-.fa-phone-alt:before {
-    margin-right: 1rem;
-}
-.fa-envelope:before{
-    margin-right:1rem;
-}
+.fa-phone-alt:before {margin-right: 1rem;}
+
+.fa-envelope:before{margin-right:1rem;}
+
 #contactinfo_footer h4{text-decoration: underline;}
-#contactinfo_footer i{
-    margin-top:0.5rem;
-}
+
+#contactinfo_footer i{margin-top:0.5rem;}
 
 /*NEWSLETTER*/
 #newsletter_footer{
@@ -171,10 +229,11 @@ footer{
     color:white;
 }
 #newsletter_footer h4{margin:0.5rem;}
+
 #newsletter_form{margin:0.5rem;}
-#email_newsletter_submit:hover{
-    background-color: #4D4861;
-}
+
+#email_newsletter_submit:hover{background-color: #4D4861;}
+
 footer input[type=email]{width:66%;}
 
 /*SOME*/
@@ -190,14 +249,10 @@ footer input[type=email]{width:66%;}
     margin-right:2px;
     color:#4D4861;
 }
-#some_footer>a:hover{
-    color:#9E7682;
-}
+#some_footer>a:hover{color:#9E7682;}
 
 
-#email_newsletter_submit:hover{
-    background-color: #4D4861;
-}
+#email_newsletter_submit:hover{background-color: #4D4861;}
 
 /*----------------------------------
 BUTTONS
@@ -287,11 +342,10 @@ BUTTONS
 
 .buttonIntro{
     position: absolute;
-    top: 70%;
+    top: 95%;
     left: 50%;
-    transform: translate(-70%, -50%);
-    -ms-transform: translate(-70%, -50%);
-    
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
 #scrolltop_btn {
@@ -313,7 +367,7 @@ BUTTONS
     background-color: #605770;
 }
 /*----------------------------------
-FONTS
+FONTS STYLING
 ------------------------------------
 */
 h1{
@@ -322,6 +376,7 @@ h1{
     font-style: normal;
     font-size: 63px;
     line-height: 78.75px;
+    margin:0;
 }
 h2{
     font-family: 'Quicksand';
@@ -344,12 +399,15 @@ h4{
     font-size:25px;
     line-height: 30px;
 }
+p{font-size:20px;}
+
+ul{font-size: 20px;}
 
 /*----------------------------------
-INPUT
+INPUT (FORMS)
 ------------------------------------
 */
-input[type=text], input[type=email], input[type=tel]{
+input[type=text], input[type=email], input[type=tel], textarea{
     padding: 4px 4px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -359,22 +417,14 @@ input[type=text], input[type=email], input[type=tel]{
     font-size:16px;
     font-family: 'Quicksand';
 }
-#contactform textarea {
-    height: 150px;
-    padding: 1rem;
-    margin: 10px 0;
-    box-sizing: border-box;
-    background-color: #F5F3F3;
-    border: none;
-    width: 100%;
-    font-family: 'Quicksand';
-}
+#contactform textarea {height: 150px;}
+
 #contactform input[type=radio] {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    outline: none;
 }
+
 /*----------------------------------
 HOMEPAGE
 ------------------------------------
@@ -443,50 +493,17 @@ HOMEPAGE
 /*----------------------------------
 UTLEIER
 ------------------------------------*/
-#intro_utleier{
-    min-height: 350px;
-}
 
 /*FORDELER*/
-#fordeler{
-    min-height:550px;
-    position: relative;
-}
-
 #trygghet, #best, #timemoney{
     float:left;
     width:30%;
 }
 #knowledge, #responsibility, #satisfied{
     float:left;
-    width:30%;
-    
+    width:30%; 
 }
-/*SLIK FUNGERER DET*/
-.field_text{display:none;}
-.field_header{
-    color:white;
-    background-color: #9E7682;
-    height:4rem;
-    margin-bottom:0.5rem;
-}
-.field_header h3{
-    margin:1rem;
-    float:left;
-    width:50%;
-    display: block;
-}
-.field_header .far{
-    float:right;
-    width:10%;
-    font-size:30px;
-    display:block;
-    margin:1rem;
-    text-align: right;
-}
-.field_text{
-    font-size:20px;
-}
+
 /*PRISER*/
 
 .prices_container{display:flex;}
@@ -501,9 +518,8 @@ UTLEIER
     background-color: #9E7682;
     padding:0.5rem;
 }
-.header_col h3{
-    margin:0;
-}
+.header_col h3{margin:0;}
+
 .col ul{
     border-left:2px solid #9E7682;
     border-right:2px solid #9E7682;
@@ -515,12 +531,6 @@ UTLEIER
 /*----------------------------------
 LEIETAKER
 ------------------------------------*/
-
-/*INTRO*/
-#intro_leietaker{
-    margin-top:5rem;
-    min-height: 450px;
-}                                            
 
 /*EKSTRA INFORMASJON*/
 #extra_info{
@@ -539,7 +549,7 @@ LEIETAKER
     border-bottom:2px solid white;
 }
 .box_extra_info p{
-    height:50%;
+    height:45%;
     width:50%;
     margin:auto;
     margin-bottom:1rem;
@@ -549,10 +559,9 @@ LEIETAKER
     padding:0.5rem;
     border:1px solid white;
 }
+
 /*DINE FORDELER*/
-#dine_fordeler{
-    min-height: 525px;
-}
+#dine_fordeler{min-height: 550px;}
 
 #process,#takecare{
     float:left;
@@ -562,6 +571,7 @@ LEIETAKER
     float:left;
     width:48%;
 }
+
 /*ER DU STUDENT?*/
 
 #student{
@@ -612,9 +622,6 @@ CONTACT
     flex:1;
     vertical-align: middle;
 }
-.col_contact h1{
-    margin:0;
-}
 .col_2_contact{
    margin-left:2rem;
    margin-top:auto;
@@ -635,16 +642,9 @@ CONTACT
     border: 2px solid #605770;
     border-radius: 5px;
     width:60%;
-    margin:auto;
-    transition:0.8s ease-in;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin:2rem auto 2rem auto;
 }
-.maps_contact_iframe:hover{
-    -webkit-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
-	-moz-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
-	box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
-}
+
 /*BOTTOM*/
 #bottom_contact{
     margin:0;
@@ -656,40 +656,4 @@ CONTACT
     position:relative;
     padding-bottom:1.5rem;
 }
-
-}
-/*----------------------------------
-SECTION_INTRO
-------------------------------------*/
-.container_intro{
-    display:inline-block;
-    position: relative;
-}
-.container_intro h1{
-    float:left;
-    width:30%;
-    position: relative;
-    margin:0;
-    vertical-align: center;
-}
-.container_intro img{
-    width:50%;
-    float: right;
-}
-.box_hover{
-    padding:0.5rem;
-    transition: 0.8s ease-in;
-}
-.box_hover:hover{
-    -webkit-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
-	-moz-box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
-	box-shadow: 17px 11px 20px 0px rgba(204,204,204,0.75);
-}
-
-.box_fordeler{
-    text-align: center;
-    border-radius: 10px 0px 10px 0px;
-    border:1px solid transparent;
-}
-
 
